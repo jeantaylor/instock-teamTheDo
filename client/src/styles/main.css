@@ -19,7 +19,6 @@ body {
 /* Imports */
 /* Media Query: Tablet */
 /* Media Query: Desktop */
-
 @font-face {
   font-family: 'AvenirReg';
   src: url("../assets/Global-Fonts/AvenirNextProLT/Linotype-AvenirNextLTPro-Regular.otf");
@@ -120,6 +119,15 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
+}
+
+.inventory {
+  margin: 0 5%;
+}
+
+.inventory__heading {
+  color: #323232;
+}
 
 .table__header {
   display: -webkit-box;
@@ -138,12 +146,7 @@ body {
   opacity: 0.4;
 }
 
-.inventory {
-  margin: 0 5%;
-}
-
-.inventory__heading {
-  color: #323232;
-
+.kbabMenu {
+  margin: 0;
 }
 /*# sourceMappingURL=main.css.map */

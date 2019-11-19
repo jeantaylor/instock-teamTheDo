@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import TableHeader from "./location/locationTableHeader";
+import TableHeader from "./location/LocationTableHeader";
 
 export default class location extends Component {
   render() {

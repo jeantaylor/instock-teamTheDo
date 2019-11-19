@@ -18,10 +18,10 @@ body {
 
 /* Imports */
 
-@import './partials/fonts'; 
+@import "./partials/breakpoints"; 
+@import "./partials/colours"; 
+@import "./partials/fonts"; 
 @import "./partials/header"; 
-@import "./partials/breakpoints";
-@import "./partials/colours";
-@import "./partials/tableHeader";
-@import "./partials/inventory";
-
+@import "./partials/inventory"; 
+@import "./partials/tableHeader"; 
+@import "./partials/inventory/kbabMenu"; 
