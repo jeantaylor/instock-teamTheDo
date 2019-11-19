@@ -15,6 +15,7 @@
         color: $silver; 
         display: flex; 
         justify-content: space-around;
+        align-content: center;
     }
 
     &__nav-item {
@@ -25,6 +26,8 @@
         text-decoration: none;
         color: $silver; 
         padding-bottom: 3px;
+        border-bottom: 3px solid $black;
+
     }
 
     &__nav-link--active {
@@ -46,6 +49,11 @@
             align-items: center; 
         }
 
+        &__logo {
+        margin: 16px auto; 
+        padding-bottom: 6px;
+        }
+
         &__nav {
             width: 50%; 
             margin: 0; 
@@ -58,7 +66,7 @@
 
         &__nav-link {
             padding-top: 28px;
-            padding-bottom: 31px;
+            padding-bottom: 30px;
             margin-left: 7.29%; 
         }
 

@@ -55,6 +55,8 @@ body {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 .header__nav-item {
@@ -65,6 +67,7 @@ body {
   text-decoration: none;
   color: #afafaf;
   padding-bottom: 3px;
+  border-bottom: 3px solid #323232;
 }
 
 .header__nav-link--active {
@@ -87,6 +90,10 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
+  .header__logo {
+    margin: 16px auto;
+    padding-bottom: 6px;
+  }
   .header__nav {
     width: 50%;
     margin: 0;
@@ -99,7 +106,7 @@ body {
   }
   .header__nav-link {
     padding-top: 28px;
-    padding-bottom: 31px;
+    padding-bottom: 30px;
     margin-left: 7.29%;
   }
   .header__nav-item {
