@@ -12,8 +12,8 @@ import TableHeaderInventory from "./components/inventory/inventoryTableHeader";
 function App() {
   return (
     <div className='app'>
+      <Header />
       <div className='inventory'>
-        <Header />
         <h1 className='inventory__heading'>Inventory</h1>
         <TableHeaderInventory />
         <Switch>

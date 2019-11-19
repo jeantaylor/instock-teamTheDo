@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import TableHeader from "./inventory/inventoryTableHeader";
+import TableHeader from "./inventory/InventoryTableHeader";
 
 export default class inventory extends Component {
   render() {
