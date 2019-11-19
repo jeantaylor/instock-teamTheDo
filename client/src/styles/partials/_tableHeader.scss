@@ -1,0 +1,11 @@
+.table__header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+
+  &-headings {
+    color: $black;
+    opacity: 0.4;
+  }
+}

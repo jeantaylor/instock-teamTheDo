@@ -1,23 +1,27 @@
-@charset 'utf-8'; 
+@charset 'utf-8';
 
-html, 
+html,
 body {
-    margin: 0; 
-    font-family: AvenirReg, sans-serif; 
-    color: #323232; 
-    height: 100vh; 
-    box-sizing: border-box; 
+  margin: 0;
+  font-family: AvenirReg, sans-serif;
+  color: #323232;
+  height: 100vh;
+  box-sizing: border-box;
 }
 
 /* Enforces border-box for whole site */
-*, 
-*:before, 
+*,
+*:before,
 *:after {
-    box-sizing: inherit; 
+  box-sizing: inherit;
 }
 
 /* Imports */
-@import './partials/breakpoints'; 
+
 @import './partials/fonts'; 
-@import './partials/colours'; 
 @import "./partials/header"; 
+@import "./partials/breakpoints";
+@import "./partials/colours";
+@import "./partials/tableHeader";
+@import "./partials/inventory";
+
