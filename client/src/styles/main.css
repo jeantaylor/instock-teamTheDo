@@ -70,11 +70,6 @@ body {
   border-bottom: 3px solid #323232;
 }
 
-.header__nav-link--active {
-  color: #fff;
-  border-bottom: 3px solid #fff;
-}
-
 .header__nav-link:hover {
   color: #fff;
   border-bottom: 3px solid #fff;
