@@ -8,11 +8,13 @@ import Inventory from "./components/Inventory";
 import Location from "./components/Location"; 
 // import TableHeader from "./components/location/LocationTableHeader";
 import TableHeaderInventory from "./components/inventory/InventoryTableHeader";
+import ProductHeader from "./components/inventory/ProductHeader";
 
 function App() {
   return (
     <div className='app'>
       <Header />
+      <ProductHeader/>
       <div className='inventory'>
         <h1 className='inventory__heading'>Inventory</h1>
         <TableHeaderInventory />
