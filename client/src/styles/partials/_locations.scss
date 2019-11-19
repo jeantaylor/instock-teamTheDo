@@ -1,0 +1,15 @@
+.locations {
+  margin: 0 5%;
+  &__heading {
+    color: $black;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+  &__name {
+    font-weight: bold;
+  }
+}
