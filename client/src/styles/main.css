@@ -1,0 +1,46 @@
+html,
+body {
+  margin: 0;
+  font-family: AvenirReg, sans-serif;
+  color: #323232;
+  height: 100vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Enforces border-box for whole site */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+/* Imports */
+/* Media Query: Tablet */
+/* Media Query: Desktop */
+.table__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+}
+
+.table__header-headings {
+  color: #323232;
+  opacity: 0.4;
+}
+
+.inventory {
+  margin: 0 5%;
+}
+
+.inventory__heading {
+  color: #323232;
+}
+/*# sourceMappingURL=main.css.map */
