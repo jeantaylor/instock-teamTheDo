@@ -129,6 +129,42 @@ body {
   color: #323232;
 }
 
+.inventory__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+}
+
+.inventory__name {
+  font-weight: bold;
+}
+
+.locations {
+  margin: 0 5%;
+}
+
+.locations__heading {
+  color: #323232;
+}
+
+.locations__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+}
+
+.locations__name {
+  font-weight: bold;
+}
+
 .table__header {
   display: -webkit-box;
   display: -ms-flexbox;
