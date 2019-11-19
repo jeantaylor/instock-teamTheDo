@@ -1,0 +1,22 @@
+@charset 'utf-8'; 
+
+html, 
+body {
+    margin: 0; 
+    font-family: AvenirReg, sans-serif; 
+    color: #323232; 
+    height: 100vh; 
+    box-sizing: border-box; 
+}
+
+/* Enforces border-box for whole site */
+*, 
+*:before, 
+*:after {
+    box-sizing: inherit; 
+}
+
+/* Imports */
+@import './partials/breakpoints'; 
+@import './partials/fonts'; 
+@import './partials/colours'; 
