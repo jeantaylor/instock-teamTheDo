@@ -6,8 +6,8 @@ import { Switch, Route } from "react-router-dom";
 import Header from "./components/Header"; 
 import Inventory from "./components/Inventory"; 
 import Location from "./components/Location"; 
-// import TableHeader from "./components/location/locationTableHeader";
-import TableHeaderInventory from "./components/inventory/inventoryTableHeader";
+// import TableHeader from "./components/location/LocationTableHeader";
+import TableHeaderInventory from "./components/inventory/InventoryTableHeader";
 
 function App() {
   return (
