@@ -1,5 +1,6 @@
 [
   {
+    "id": "123-556-444",
     "warehouse": "Toronto Warehouse",
     "address": "40 Bay St, Toronto, ON M5J 2X2",
     "name": "Pascal Siakam",
@@ -9,7 +10,8 @@
     "categories": "Athletics, Equipment, Inventory "
   },
   {
-    "warehouse": "Toronto Warehouse",
+    "id": "123-999-339",
+    "warehouse": "Vancouver Warehouse",
     "address": "40 Bay St, Toronto, ON M5J 2X2",
     "name": "Pascal Siakam",
     "position": "Manager",
@@ -18,7 +20,8 @@
     "categories": "Athletics, Equipment, Inventory "
   },
   {
-    "warehouse": "Toronto Warehouse",
+    "id": "123-440-043",
+    "warehouse": "Ontario Warehouse",
     "address": "40 Bay St, Toronto, ON M5J 2X2",
     "name": "Pascal Siakam",
     "position": "Manager",
@@ -27,7 +30,8 @@
     "categories": "Athletics, Equipment, Inventory "
   },
   {
-    "warehouse": "Toronto Warehouse",
+    "id": "123-948-204",
+    "warehouse": "Nova Scotia Warehouse",
     "address": "40 Bay St, Toronto, ON M5J 2X2",
     "name": "Pascal Siakam",
     "position": "Manager",
@@ -36,7 +40,8 @@
     "categories": "Athletics, Equipment, Inventory "
   },
   {
-    "warehouse": "Toronto Warehouse",
+    "id": "123-036-794",
+    "warehouse": "Los Angeles Warehouse",
     "address": "40 Bay St, Toronto, ON M5J 2X2",
     "name": "Pascal Siakam",
     "position": "Manager",
@@ -45,7 +50,8 @@
     "categories": "Athletics, Equipment, Inventory "
   },
   {
-    "warehouse": "Toronto Warehouse",
+    "id": "123-022-794",
+    "warehouse": "San Diego Warehouse",
     "address": "40 Bay St, Toronto, ON M5J 2X2",
     "name": "Pascal Siakam",
     "position": "Manager",
@@ -54,7 +60,8 @@
     "categories": "Athletics, Equipment, Inventory "
   },
   {
-    "warehouse": "Toronto Warehouse",
+    "id": "123-980-789",
+    "warehouse": "Seattle Warehouse",
     "address": "40 Bay St, Toronto, ON M5J 2X2",
     "name": "Pascal Siakam",
     "position": "Manager",
@@ -63,7 +70,8 @@
     "categories": "Athletics, Equipment, Inventory "
   },
   {
-    "warehouse": "Toronto Warehouse",
+    "id": "123-456-984",
+    "warehouse": "Portland Warehouse",
     "address": "40 Bay St, Toronto, ON M5J 2X2",
     "name": "Pascal Siakam",
     "position": "Manager",
@@ -72,6 +80,7 @@
     "categories": "Athletics, Equipment, Inventory "
   },
   {
+    "id": "123-456-124",
     "warehouse": "Toronto Warehouse",
     "address": "40 Bay St, Toronto, ON M5J 2X2",
     "name": "Pascal Siakam",
