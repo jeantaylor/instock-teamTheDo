@@ -1,0 +1,40 @@
+.create {
+  margin: 0;
+  width: 80px;
+  height: 80px;
+  &__button {
+    border: none;
+    background: $instock-blue;
+    border-radius: 32px;
+    height: 60px;
+    width: 60px;
+    &:hover {
+      background: $instock-drkblue;
+    }
+    &__icon {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+
+@include medium {
+  .create {
+    margin: 0;
+    &__button {
+      height: 80px;
+      width: 80px;
+      border-radius: 40px;
+      &__icon {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+}
+
+@include large {
+  .className {
+    margin: 0;
+  }
+}

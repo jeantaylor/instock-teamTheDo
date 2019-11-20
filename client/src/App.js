@@ -12,15 +12,17 @@ import Location from "./components/location";
 // import TableHeader from "./components/location/locationTableHeader";
 // import TableHeaderInventory from "./components/inventory/InventoryTableHeader";
 // import InventoryKbabMenu from "./components/inventory/InventoryKbabMenu";
+import ProductSummary from "./components/inventory/productSummary";
 
 function App() {
   return (
-    <div className='app'>
+    <div className="app">
       <Header />
+      <ProductSummary />
       <Switch>
-        <Route exact path='/inventory' component={Inventory} />
+        <Route exact path="/inventory" component={Inventory} />
         <Route
-          path='/inventory/:ref'
+          path="/inventory/:ref"
           render={props => {
             return <Inventory {...props} />;
           }}
