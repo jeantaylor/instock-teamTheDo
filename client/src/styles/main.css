@@ -239,6 +239,50 @@ body {
   background-color: #e1e1e1;
 }
 
+.create {
+  margin: 0;
+  width: 80px;
+  height: 80px;
+}
+
+.create__button {
+  border: none;
+  background: #004892;
+  border-radius: 32px;
+  height: 60px;
+  width: 60px;
+}
+
+.create__button:hover {
+  background: #002f5f;
+}
+
+.create__button__icon {
+  width: 20px;
+  height: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .create {
+    margin: 0;
+  }
+  .create__button {
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+  }
+  .create__button__icon {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .className {
+    margin: 0;
+  }
+}
+
 .product__header {
   margin: 0 5%;
   font-family: AvenirBold;
