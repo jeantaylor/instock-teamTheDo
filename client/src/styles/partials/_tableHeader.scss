@@ -1,11 +1,24 @@
 .table__header {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 90%;
-
-  &-headings {
+  display: none;
+  &-headings-map {
     color: $black;
     opacity: 0.4;
+  }
+}
+
+@include medium {
+  .table__header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+
+    &-headings {
+      color: $black;
+      opacity: 0.4;
+      &-map {
+        display: none;
+      }
+    }
   }
 }
