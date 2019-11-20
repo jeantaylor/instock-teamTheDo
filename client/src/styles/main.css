@@ -137,6 +137,7 @@ body {
   font-weight: bold;
 }
 
+
 @media only screen and (min-width: 768px) {
   .inventory {
     margin: 0 5%;
@@ -236,6 +237,116 @@ body {
 }
 
 .kbabMenu {
-  margin: 0;
+  position: relative;
+  display: inline-block;
+  left: 50%;
 }
-/*# sourceMappingURL=main.css.map */
+
+.kbabMenu__btn {
+  cursor: pointer;
+  margin: 5px;
+  border: none;
+  background-color: #fff;
+}
+
+.kbabMenu__icon:hover, .kbabMenu__icon:active, .kbabMenu__icon:focus {
+  -webkit-filter: contrast(0%);
+          filter: contrast(0%);
+}
+
+.kbabMenu__actions {
+  position: absolute;
+  right: 0;
+  width: 161px;
+  height: 44px;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  -webkit-box-shadow: #afafaf;
+          box-shadow: #afafaf;
+  background-color: #fff;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.kbabMenu__action {
+  text-align: left;
+  width: inherit;
+  border: none;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.kbabMenu__action:hover, .kbabMenu__action:focus {
+  background-color: #e1e1e1;
+}
+
+.product__header {
+  margin: 0 5%;
+  font-family: AvenirBold;
+}
+
+.product__header__title__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.product__header__icon {
+  padding-right: 24px;
+}
+
+.product__header__title {
+  font-size: 24px;
+}
+
+.product__header__button {
+  background: #5fb709;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  height: 32px;
+  width: 88px;
+}
+
+@media only screen and (min-width: 768px) {
+  .product__header {
+    margin: 0 3.13%;
+  }
+  .product__header__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: 1px solid #e1e1e1;
+  }
+  .product__header__title {
+    padding-right: 24px;
+    font-size: 36px;
+  }
+  .product__header__button {
+    height: 24px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .product__header {
+    margin: 0 12.5%;
+  }
+}
+
