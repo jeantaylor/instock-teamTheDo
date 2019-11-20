@@ -10,7 +10,8 @@
         "partials/_inventory.scss",
         "partials/_locations.scss",
         "partials/_tableHeader.scss",
-        "partials/inventory/_kbabMenu.scss"
+        "partials/inventory/_kbabMenu.scss",
+        "partials/inventory/_productHeader.scss"
     ],
     "names": [],
     "file": "main.css"

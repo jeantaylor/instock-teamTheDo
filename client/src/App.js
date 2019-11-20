@@ -6,12 +6,14 @@ import { Switch, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Inventory from "./components/Inventory";
 import Location from "./components/Location";
+//import ProductHeader from "./components/inventory/ProductHeader";
 // import TableHeader from "./components/location/locationTableHeader";
 // import TableHeaderInventory from "./components/inventory/InventoryTableHeader";
 
+
 function App() {
   return (
-    <div className='app'>
+    <div className="app">
       <Header />
       <Switch>
         <Route exact path='/inventory' component={Inventory} />
