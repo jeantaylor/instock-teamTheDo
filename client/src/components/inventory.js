@@ -12,7 +12,7 @@ export default class inventory extends Component {
 
   componentDidMount() {
     axios.get(`http://localhost:8080/inventory`).then(res => {
-      // console.log(res);
+      console.log(res);
       this.setState({
         inventory: res.data
       });

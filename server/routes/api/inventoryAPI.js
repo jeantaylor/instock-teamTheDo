@@ -9,10 +9,8 @@ const app = express();
 // / Initialize Files, File Data
 // Template:
 const inventoryData =
-  "C:/Users/akwon/Documents/BrainStation_WebDevFT/instock-teamTheDo/server/model/inventory.json";
+  "/Users/codeepalmer/Desktop/instock-teamTheDo/server/model/inventory.json";
 let inventory = require(inventoryData);
-
-
 
 app.use(express.urlencoded({ extended: true }));
 
