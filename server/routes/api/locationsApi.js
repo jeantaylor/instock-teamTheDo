@@ -7,7 +7,7 @@ const uuid = require("uuid");
 const app = express();
 
 const locationData =
-  "/Users/codeepalmer/Desktop/instock-teamTheDo/server/model/locations.json";
+  "C:/Users/akwon/Documents/BrainStation_WebDevFT/instock-teamTheDo/server/model/locations.json";
 let locations = require(locationData);
 
 app.use(express.urlencoded({ extended: true }));

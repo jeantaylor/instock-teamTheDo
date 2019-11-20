@@ -137,6 +137,7 @@ body {
   font-weight: bold;
 }
 
+
 @media only screen and (min-width: 768px) {
   .inventory {
     margin: 0 5%;
@@ -236,7 +237,54 @@ body {
 }
 
 .kbabMenu {
-  margin: 0;
+  position: relative;
+  display: inline-block;
+  left: 50%;
+}
+
+.kbabMenu__btn {
+  cursor: pointer;
+  margin: 5px;
+  border: none;
+  background-color: #fff;
+}
+
+.kbabMenu__icon:hover, .kbabMenu__icon:active, .kbabMenu__icon:focus {
+  -webkit-filter: contrast(0%);
+          filter: contrast(0%);
+}
+
+.kbabMenu__actions {
+  position: absolute;
+  right: 0;
+  width: 161px;
+  height: 44px;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  -webkit-box-shadow: #afafaf;
+          box-shadow: #afafaf;
+  background-color: #fff;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.kbabMenu__action {
+  text-align: left;
+  width: inherit;
+  border: none;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.kbabMenu__action:hover, .kbabMenu__action:focus {
+  background-color: #e1e1e1;
 }
 
 .product__header {
@@ -301,4 +349,4 @@ body {
     margin: 0 12.5%;
   }
 }
-/*# sourceMappingURL=main.css.map */
+

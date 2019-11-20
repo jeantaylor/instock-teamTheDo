@@ -1,20 +1,37 @@
 import React, { Component } from 'react'; 
-import kbab from "../../assets/Icons/SVG/Icon-kbab-default.svg"; 
+import kbab from "../../assets/Icons/SVG/Icon-kebab-default.svg"; 
 
 export default class InventoryKbabMenu extends Component {
+    state = {
+        activeBtn: false
+    }
+
+    btnToggle = () => {
+        if (this.state.activeBtn === false) {
+            this.setState({activeBtn: true})
+        } else {
+            this.setState({ activeBtn: false })
+        }
+    }
+
     render() {
         return (
             <div className="kbabMenu">
-                <button className="kbabMenu__btn">
+                <button 
+                    className="kbabMenu__btn" 
+                    type="button" 
+                    onClick={this.btnToggle}
+                >
                     <img className="kbabMenu__icon" src={kbab} alt="Kbab Icon" />
                 </button>
-                <div className="kbabMenu__actions">
-                    <button className="kbabMenu__action">
-                        Remove
-                    </button>
-                </div>
+                {!this.state.activeBtn &&
+                    <div className="kbabMenu__actions">
+                        <button className="kbabMenu__action">
+                            Remove
+                        </button>
+                    </div>
+                }
             </div>
         )
     }
 }
-

@@ -15,7 +15,7 @@ export default function header() {
                                 color: "$white", 
                                 borderBottom: "3px solid $white"
                             }}>
-                                <li className="header__nav-item">Inventory</li>
+                                <li className="header__nav-item">Inventory </li>
                             </NavLink>
                             <NavLink className="header__nav-link" 
                             to="/locations"
