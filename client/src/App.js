@@ -18,7 +18,6 @@ function App() {
   return (
     <div className="app">
       <Header />
-      <ProductSummary product={Inventory} />
       <Switch>
         <Route exact path="/inventory" component={Inventory} />
         <Route
@@ -27,7 +26,7 @@ function App() {
             return <Inventory {...props} />;
           }}
         />
-        <Route path='/locations' component={Location} />
+        <Route path="/locations" component={Location} />
         {/* <Route path='/inventory' component={PopUpForm} /> */}
       </Switch>
     </div>

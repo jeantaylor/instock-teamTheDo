@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function productSummary(props) {
-  console.log(props);
+  //console.log(props);
   return (
     <div className="product__summary">
       <h4 className="product__summary-headings">ITEM DESCRIPTION</h4>
