@@ -8,16 +8,38 @@
     "phone": "(416) 815-5500",
     "email": "p.siakam@the-do.com",
     "categories": "Athletics, Equipment, Inventory ",
-    "products": {
-      "ref": "bsWebDevTeam1",
-      "name": "TheDo",
-      "desc": "Top team from BrainStation's FT WebDev Programme Fall '19",
-      "lastOrdered": "11/18/2019",
-      "location": "Vancouver, CAN",
-      "quantity": 1,
-      "status": "In Stock",
-      "categories": ["HTML5", "CSS3", "Node.js", "TheBest"]
-    }
+    "products": [
+      {
+        "ref": "bsWebDevTeam1",
+        "name": "TheDo",
+        "desc": "Top team from BrainStation's FT WebDev Programme Fall '19",
+        "lastOrdered": "11/18/2019",
+        "location": "Vancouver, CAN",
+        "quantity": 1,
+        "status": "In Stock",
+        "categories": ["HTML5", "CSS3", "Node.js", "TheBest"]
+      },
+      {
+        "ref": "bsWebDevTeam22",
+        "name": "JenIsSadTwo",
+        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "lastOrdered": "11/10/2019",
+        "location": "Vancouver, CAN",
+        "quantity": 3,
+        "status": "In Stock",
+        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+      },
+      {
+        "ref": "bsWebDevTeam222",
+        "name": "JenIsSadThree",
+        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "lastOrdered": "11/10/2019",
+        "location": "Vancouver, CAN",
+        "quantity": 3,
+        "status": "In Stock",
+        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+      }
+    ]
   },
   {
     "id": "123-999-339",
@@ -28,16 +50,38 @@
     "phone": "(416) 815-5500",
     "email": "p.siakam@the-do.com",
     "categories": "Athletics, Equipment, Inventory ",
-    "products": {
-      "ref": "bsWebDevTeam2",
-      "name": "JenIsSad",
-      "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
-      "lastOrdered": "11/18/2019",
-      "location": "Vancouver, CAN",
-      "quantity": 1,
-      "status": "In Stock",
-      "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
-    }
+    "products": [
+      {
+        "ref": "bsWebDevTeam2",
+        "name": "JenIsSad",
+        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "lastOrdered": "11/18/2019",
+        "location": "Vancouver, CAN",
+        "quantity": 1,
+        "status": "In Stock",
+        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+      },
+      {
+        "ref": "bsWebDevTeam100",
+        "name": "JenIsSadFour",
+        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "lastOrdered": "11/10/2019",
+        "location": "Vancouver, CAN",
+        "quantity": 3,
+        "status": "In Stock",
+        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+      },
+      {
+        "ref": "bsWebDevTeam111",
+        "name": "JenIsSadFive",
+        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "lastOrdered": "11/10/2019",
+        "location": "Vancouver, CAN",
+        "quantity": 3,
+        "status": "In Stock",
+        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+      }
+    ]
   },
   {
     "id": "123-440-043",
@@ -48,16 +92,38 @@
     "phone": "(416) 815-5500",
     "email": "p.siakam@the-do.com",
     "categories": "Athletics, Equipment, Inventory ",
-    "products": {
-      "ref": "bsWebDevTeam3",
-      "name": "404-CoffeeNotFound",
-      "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
-      "lastOrdered": "11/18/2019",
-      "location": "Vancouver, CAN",
-      "quantity": 1,
-      "status": "In Stock",
-      "categories": ["HTML5", "CSS3", "Node.js", "#coffeesnob"]
-    }
+    "products": [
+      {
+        "ref": "bsWebDevTeam3",
+        "name": "404-CoffeeNotFound",
+        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "lastOrdered": "11/18/2019",
+        "location": "Vancouver, CAN",
+        "quantity": 1,
+        "status": "In Stock",
+        "categories": ["HTML5", "CSS3", "Node.js", "#coffeesnob"]
+      },
+      {
+        "ref": "bsWebDevTeam200",
+        "name": "JenIsSadSeven",
+        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "lastOrdered": "11/10/2019",
+        "location": "Vancouver, CAN",
+        "quantity": 3,
+        "status": "In Stock",
+        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+      },
+      {
+        "ref": "bsWebDevTeam2001",
+        "name": "JenIsSadEight",
+        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "lastOrdered": "11/10/2019",
+        "location": "Vancouver, CAN",
+        "quantity": 3,
+        "status": "In Stock",
+        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+      }
+    ]
   },
   {
     "id": "123-948-204",
@@ -68,16 +134,38 @@
     "phone": "(416) 815-5500",
     "email": "p.siakam@the-do.com",
     "categories": "Athletics, Equipment, Inventory ",
-    "products": {
-      "ref": "bsWebDevTeam4",
-      "name": "riri-undefined",
-      "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
-      "lastOrdered": "11/18/2019",
-      "location": "Vancouver, CAN",
-      "quantity": 1,
-      "status": "In Stock",
-      "categories": ["HTML5", "CSS3", "Node.js", "+10 Enthusiasm"]
-    }
+    "products": [
+      {
+        "ref": "bsWebDevTeam4",
+        "name": "riri-undefined",
+        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "lastOrdered": "11/18/2019",
+        "location": "Vancouver, CAN",
+        "quantity": 1,
+        "status": "In Stock",
+        "categories": ["HTML5", "CSS3", "Node.js", "+10 Enthusiasm"]
+      },
+      {
+        "ref": "bsWebDevTeam300",
+        "name": "JenIsSadTwo",
+        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "lastOrdered": "11/10/2019",
+        "location": "Vancouver, CAN",
+        "quantity": 3,
+        "status": "In Stock",
+        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+      },
+      {
+        "ref": "bsWebDevTeam303",
+        "name": "JenIsSadTwo",
+        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "lastOrdered": "11/10/2019",
+        "location": "Vancouver, CAN",
+        "quantity": 3,
+        "status": "In Stock",
+        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+      }
+    ]
   },
   {
     "id": "123-036-794",
@@ -88,16 +176,38 @@
     "phone": "(416) 815-5500",
     "email": "p.siakam@the-do.com",
     "categories": "Athletics, Equipment, Inventory ",
-    "products": {
-      "ref": "bsWebDevTeam5",
-      "name": "ROL",
-      "desc": "Top team from BrainStation's FT WebDev Programme Fall '19",
-      "lastOrdered": "11/18/2019",
-      "location": "Vancouver, CAN",
-      "quantity": 1,
-      "status": "In Stock",
-      "categories": ["HTML5", "CSS3", "Node.js", "Sugar"]
-    }
+    "products": [
+      {
+        "ref": "bsWebDevTeam5",
+        "name": "ROL",
+        "desc": "Top team from BrainStation's FT WebDev Programme Fall '19",
+        "lastOrdered": "11/18/2019",
+        "location": "Vancouver, CAN",
+        "quantity": 1,
+        "status": "In Stock",
+        "categories": ["HTML5", "CSS3", "Node.js", "Sugar"]
+      },
+      {
+        "ref": "bsWebDevTeam400",
+        "name": "JenIsSadNine",
+        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "lastOrdered": "11/10/2019",
+        "location": "Vancouver, CAN",
+        "quantity": 3,
+        "status": "In Stock",
+        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+      },
+      {
+        "ref": "bsWebDevTeam404",
+        "name": "JenIsSadTen",
+        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "lastOrdered": "11/10/2019",
+        "location": "Vancouver, CAN",
+        "quantity": 3,
+        "status": "In Stock",
+        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+      }
+    ]
   },
   {
     "id": "123-036-794",
@@ -108,16 +218,38 @@
     "phone": "(416) 815-5500",
     "email": "p.siakam@the-do.com",
     "categories": "Athletics, Equipment, Inventory ",
-    "products": {
-      "ref": "bsWebDevTeam6",
-      "name": "N-APi",
-      "desc": "Top team from BrainStation's FT WebDev Programme Fall '19",
-      "lastOrdered": "11/18/2019",
-      "location": "Vancouver, CAN",
-      "quantity": 1,
-      "status": "Out of Stock",
-      "categories": ["HTML5", "CSS3", "Node.js", "+50 Leadership"]
-    }
+    "products": [
+      {
+        "ref": "bsWebDevTeam6",
+        "name": "N-APi",
+        "desc": "Top team from BrainStation's FT WebDev Programme Fall '19",
+        "lastOrdered": "11/18/2019",
+        "location": "Vancouver, CAN",
+        "quantity": 1,
+        "status": "Out of Stock",
+        "categories": ["HTML5", "CSS3", "Node.js", "+50 Leadership"]
+      },
+      {
+        "ref": "bsWebDevTeam777",
+        "name": "JenIsSadHello",
+        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "lastOrdered": "11/10/2019",
+        "location": "Vancouver, CAN",
+        "quantity": 3,
+        "status": "In Stock",
+        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+      },
+      {
+        "ref": "bsWebDevTeam888",
+        "name": "JenIsSadBye",
+        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "lastOrdered": "11/10/2019",
+        "location": "Vancouver, CAN",
+        "quantity": 3,
+        "status": "In Stock",
+        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+      }
+    ]
   },
   {
     "id": "123-980-789",
@@ -128,16 +260,38 @@
     "phone": "(416) 815-5500",
     "email": "p.siakam@the-do.com",
     "categories": "Athletics, Equipment, Inventory ",
-    "products": {
-      "ref": "bsWebDevTeam7",
-      "name": "IAmAProductOne",
-      "desc": "Top team from BrainStation's FT WebDev Programme Fall '19",
-      "lastOrdered": "11/18/2019",
-      "location": "Vancouver, CAN",
-      "quantity": 1,
-      "status": "Out of Stock",
-      "categories": ["HTML5", "CSS3", "Node.js", "+50 Leadership"]
-    }
+    "products": [
+      {
+        "ref": "bsWebDevTeam7",
+        "name": "IAmAProductOne",
+        "desc": "Top team from BrainStation's FT WebDev Programme Fall '19",
+        "lastOrdered": "11/18/2019",
+        "location": "Vancouver, CAN",
+        "quantity": 1,
+        "status": "Out of Stock",
+        "categories": ["HTML5", "CSS3", "Node.js", "+50 Leadership"]
+      },
+      {
+        "ref": "bsWebDevTeam500",
+        "name": "JenIsSadEleven",
+        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "lastOrdered": "11/10/2019",
+        "location": "Vancouver, CAN",
+        "quantity": 3,
+        "status": "In Stock",
+        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+      },
+      {
+        "ref": "bsWebDevTeam909",
+        "name": "JenIsSadTwelve",
+        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "lastOrdered": "11/10/2019",
+        "location": "Vancouver, CAN",
+        "quantity": 3,
+        "status": "In Stock",
+        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+      }
+    ]
   },
   {
     "id": "123-456-984",
@@ -148,16 +302,38 @@
     "phone": "(416) 815-5500",
     "email": "p.siakam@the-do.com",
     "categories": "Athletics, Equipment, Inventory ",
-    "products": {
-      "ref": "bsWebDevTeam8",
-      "name": "IAmAProductTwo",
-      "desc": "Top team from BrainStation's FT WebDev Programme Fall '19",
-      "lastOrdered": "11/18/2019",
-      "location": "Vancouver, CAN",
-      "quantity": 1,
-      "status": "Out of Stock",
-      "categories": ["HTML5", "CSS3", "Node.js", "+50 Leadership"]
-    }
+    "products": [
+      {
+        "ref": "bsWebDevTeam8",
+        "name": "IAmAProductTwo",
+        "desc": "Top team from BrainStation's FT WebDev Programme Fall '19",
+        "lastOrdered": "11/18/2019",
+        "location": "Vancouver, CAN",
+        "quantity": 1,
+        "status": "Out of Stock",
+        "categories": ["HTML5", "CSS3", "Node.js", "+50 Leadership"]
+      },
+      {
+        "ref": "bsWebDevTeam990",
+        "name": "JenIsSadThirteen",
+        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "lastOrdered": "11/10/2019",
+        "location": "Vancouver, CAN",
+        "quantity": 3,
+        "status": "In Stock",
+        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+      },
+      {
+        "ref": "bsWebDevTeam800",
+        "name": "JenIsSadFourteen",
+        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "lastOrdered": "11/10/2019",
+        "location": "Vancouver, CAN",
+        "quantity": 3,
+        "status": "In Stock",
+        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+      }
+    ]
   },
   {
     "id": "123-456-124",
@@ -168,15 +344,37 @@
     "phone": "(416) 815-5500",
     "email": "p.siakam@the-do.com",
     "categories": "Athletics, Equipment, Inventory ",
-    "products": {
-      "ref": "bsWebDevTeam9",
-      "name": "IAmAProductThree",
-      "desc": "Top team from BrainStation's FT WebDev Programme Fall '19",
-      "lastOrdered": "11/18/2019",
-      "location": "Vancouver, CAN",
-      "quantity": 1,
-      "status": "Out of Stock",
-      "categories": ["HTML5", "CSS3", "Node.js", "+50 Leadership"]
-    }
+    "products": [
+      {
+        "ref": "bsWebDevTeam9",
+        "name": "IAmAProductThree",
+        "desc": "Top team from BrainStation's FT WebDev Programme Fall '19",
+        "lastOrdered": "11/18/2019",
+        "location": "Vancouver, CAN",
+        "quantity": 1,
+        "status": "Out of Stock",
+        "categories": ["HTML5", "CSS3", "Node.js", "+50 Leadership"]
+      },
+      {
+        "ref": "bsWebDevTeam505",
+        "name": "JenIsSadfifteen",
+        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "lastOrdered": "11/10/2019",
+        "location": "Vancouver, CAN",
+        "quantity": 3,
+        "status": "In Stock",
+        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+      },
+      {
+        "ref": "bsWebDevTeam606",
+        "name": "JenIsSadSixteen",
+        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "lastOrdered": "11/10/2019",
+        "location": "Vancouver, CAN",
+        "quantity": 3,
+        "status": "In Stock",
+        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+      }
+    ]
   }
 ]
