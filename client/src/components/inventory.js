@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import TableHeader from "./inventory/InventoryTableHeader";
+import TableHeader from "./inventory/inventoryTableHeader";
 import axios from "axios";
+import KbabMenu from "./inventory/InventoryKbabMenu"; 
 
 export default class inventory extends Component {
   constructor() {
@@ -37,7 +38,9 @@ export default class inventory extends Component {
           <h4 className='table__header-headings-map'>QUANTITY</h4>
           <h4 className='inventory__quantity'>{item.products.quantity}</h4>
           <h4 className='table__header-headings-map'>STATUS</h4>
-          <h4 className='inventory__status'>{item.products.status}</h4>
+          <h4 className='inventory__status'>{item.products.status} 
+          <KbabMenu product={item.products.ref} />
+          </h4>
         </div>
       );
     });

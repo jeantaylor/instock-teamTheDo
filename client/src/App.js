@@ -3,9 +3,9 @@ import { Switch, Route } from "react-router-dom";
 
 ///Import Components Here
 
-import Header from "./components/Header";
-import Inventory from "./components/Inventory";
-import Location from "./components/Location";
+import Header from "./components/header";
+import Inventory from "./components/inventory";
+import Location from "./components/location";
 //import ProductHeader from "./components/inventory/ProductHeader";
 // import TableHeader from "./components/location/locationTableHeader";
 // import TableHeaderInventory from "./components/inventory/InventoryTableHeader";
