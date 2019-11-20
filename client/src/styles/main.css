@@ -130,34 +130,110 @@ body {
 }
 
 .inventory__item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 90%;
+  border-bottom: 1px solid grey;
 }
 
 .inventory__name {
   font-weight: bold;
 }
 
-.table__header {
+
+@media only screen and (min-width: 768px) {
+  .inventory {
+    margin: 0 5%;
+  }
+  .inventory__heading {
+    color: #323232;
+  }
+  .inventory__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 90%;
+  }
+  .inventory__name {
+    font-weight: bold;
+  }
+}
+
+.locations {
+  margin: 0 5%;
+}
+
+.locations__heading {
+  color: #323232;
+}
+
+.locations__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 90%;
 }
 
-.table__header-headings {
+.locations__name {
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 768px) {
+  .locations {
+    margin: 0 5%;
+  }
+  .locations__heading {
+    color: #323232;
+  }
+  .locations__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .locations__name {
+    font-weight: bold;
+  }
+}
+
+.table__header {
+  display: none;
+}
+
+.table__header-headings-map {
   color: #323232;
   opacity: 0.4;
+}
+
+@media only screen and (min-width: 768px) {
+  .table__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 90%;
+  }
+  .table__header-headings {
+    color: #323232;
+    opacity: 0.4;
+  }
+  .table__header-headings-map {
+    display: none;
+  }
 }
 
 .kbabMenu {
@@ -274,25 +350,3 @@ body {
   }
 }
 
-.locations {
-  margin: 0 5%;
-}
-
-.locations__heading {
-  color: #323232;
-}
-
-.locations__item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 90%;
-}
-
-.locations__name {
-  font-weight: bold;
-}
-/*# sourceMappingURL=main.css.map */

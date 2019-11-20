@@ -6,10 +6,28 @@
 
   &__item {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     width: 90%;
   }
   &__name {
     font-weight: bold;
+  }
+}
+
+@include medium {
+  .locations {
+    margin: 0 5%;
+    &__heading {
+      color: $black;
+    }
+
+    &__item {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    &__name {
+      font-weight: bold;
+    }
   }
 }
