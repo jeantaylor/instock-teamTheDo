@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import TableHeader from "./inventory/inventoryTableHeader";
 import CreateButton from "./inventory/inventoryCreateButton";
 import axios from "axios";
-import KbabMenu from "./inventory/InventoryKbabMenu"; 
+// import KbabMenu from "./inventory/InventoryKbabMenu";
 
 export default class inventory extends Component {
   constructor() {
@@ -39,20 +39,15 @@ export default class inventory extends Component {
             <h4 className='table__header-headings-map'>STATUS</h4>
             <h4 className='inventory__status'>{product.status}</h4>
           </div>
-
         );
       });
-
     });
     console.log(this.state.inventory);
     return (
-      <div className="inventory">
+      <div className='inventory'>
         <CreateButton />
-
-        <h1 className="inventory__heading">Inventory</h1>
-
+        <h1 className='inventory__heading'>Inventory</h1>
         <TableHeader />
-
         {newInventory}
       </div>
     );
