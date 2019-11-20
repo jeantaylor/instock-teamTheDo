@@ -149,4 +149,67 @@ body {
 .kbabMenu {
   margin: 0;
 }
+
+.product__header {
+  margin: 0 5%;
+  font-family: AvenirBold;
+}
+
+.product__header__title__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.product__header__icon {
+  padding-right: 24px;
+}
+
+.product__header__title {
+  font-size: 24px;
+}
+
+.product__header__button {
+  background: #5fb709;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  height: 32px;
+  width: 88px;
+}
+
+@media only screen and (min-width: 768px) {
+  .product__header {
+    margin: 0 3.13%;
+  }
+  .product__header__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: 1px solid #e1e1e1;
+  }
+  .product__header__title {
+    padding-right: 24px;
+    font-size: 36px;
+  }
+  .product__header__button {
+    height: 24px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .product__header {
+    margin: 0 12.5%;
+  }
+}
 /*# sourceMappingURL=main.css.map */
