@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="app">
       <Header />
-      <ProductSummary />
+      <ProductSummary product={Inventory} />
       <Switch>
         <Route exact path="/inventory" component={Inventory} />
         <Route
