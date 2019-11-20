@@ -38,7 +38,7 @@ export default class location extends Component {
       <div className='locations'>
         <h1 className='location__heading'>locations</h1>
         <TableHeader />
-        <h1 className='inventory__heading'>Location</h1>
+        <h1 className='inventory__heading'>Location </h1>
         {newLocation}
       </div>
     );

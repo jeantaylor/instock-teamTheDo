@@ -9,6 +9,7 @@ import Location from "./components/Location";
 //import ProductHeader from "./components/inventory/ProductHeader";
 // import TableHeader from "./components/location/locationTableHeader";
 // import TableHeaderInventory from "./components/inventory/InventoryTableHeader";
+// import InventoryKbabMenu from "./components/inventory/InventoryKbabMenu"; 
 
 
 function App() {

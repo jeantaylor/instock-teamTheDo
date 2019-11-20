@@ -5,7 +5,7 @@ export default function tableHeader() {
     <div className='table__header'>
       <h5 className='table__header-headings'>WAREHOUSE</h5>
       <h5 className='table__header-headings'>CONTACT</h5>
-      <h5 className='table__header-headings'>CONTACT INFOMATION</h5>
+      <h5 className='table__header-headings'>CONTACT INFOMATION </h5>
       <h5 className='table__header-headings'>CATEGORIES</h5>
     </div>
   );

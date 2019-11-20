@@ -39,7 +39,7 @@ export default class inventory extends Component {
     return (
       <div className='inventory'>
         <TableHeader />
-        <h1 className='inventory__heading'>Inventory</h1>
+        <h1 className='inventory__heading'>Inventory </h1>
         {newInventory}
       </div>
     );
