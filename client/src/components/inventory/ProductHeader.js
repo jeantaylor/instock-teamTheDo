@@ -14,6 +14,7 @@ export default function productHeader() {
           <h1 className="product__header__title">Product Name</h1>
         </div>
         <button className="product__header__button">In Stock</button>
+        <button className="product__header__button-oos">Out of Stock</button>
       </div>
     </div>
   );
