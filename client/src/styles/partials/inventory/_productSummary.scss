@@ -1,0 +1,15 @@
+.className {
+  margin: 0;
+}
+
+@include medium {
+  .className {
+    margin: 0;
+  }
+}
+
+@include large {
+  .className {
+    margin: 0;
+  }
+}

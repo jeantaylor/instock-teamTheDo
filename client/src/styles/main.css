@@ -358,6 +358,22 @@ body {
   }
 }
 
+.className {
+  margin: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .className {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .className {
+    margin: 0;
+  }
+}
+
 .locations {
   margin: 0 5%;
 }
