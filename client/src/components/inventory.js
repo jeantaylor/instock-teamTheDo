@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import TableHeader from "./inventory/inventoryTableHeader";
 import axios from "axios";
+import KbabMenu from "./inventory/InventoryKbabMenu"; 
 
 export default class inventory extends Component {
   constructor() {
@@ -37,8 +38,10 @@ export default class inventory extends Component {
             <h4 className='table__header-headings-map'>STATUS</h4>
             <h4 className='inventory__status'>{product.status}</h4>
           </div>
+
         );
       });
+
     });
     console.log(this.state.inventory);
     return (
