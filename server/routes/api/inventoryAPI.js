@@ -17,6 +17,10 @@ router.get("/", (req, res) => {
   res.json(inventory);
 });
 
+router.get("/:ref", (req, res) => {
+  res.json(inventory);
+});
+
 router.put("/", (req, res) => {
   // console.log(req.body);
   const found = inventory.some(
@@ -47,6 +51,10 @@ router.put("/", (req, res) => {
     });
   }
 });
+
+router.delete("/", (req, res) => {
+  
+})
 
 /// HTTP Req Methods
 // Template:
