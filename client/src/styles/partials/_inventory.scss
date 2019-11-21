@@ -21,10 +21,24 @@
     &__item {
       display: flex;
       justify-content: space-between;
-      width: 90%;
     }
     &__name {
       font-weight: bold;
+    }
+    &__group {
+      width: 20%;
+    }
+    &__quantity {
+      padding-left: 30%;
+    }
+    &__location {
+      margin-left: 9%;
+    }
+    &__status {
+      padding-left: 29%;
+    }
+    &__description {
+      padding-right: 13%;
     }
   }
 }

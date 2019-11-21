@@ -151,10 +151,24 @@ body {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    width: 90%;
   }
   .inventory__name {
     font-weight: bold;
+  }
+  .inventory__group {
+    width: 20%;
+  }
+  .inventory__quantity {
+    padding-left: 30%;
+  }
+  .inventory__location {
+    margin-left: 9%;
+  }
+  .inventory__status {
+    padding-left: 29%;
+  }
+  .inventory__description {
+    padding-right: 13%;
   }
 }
 
@@ -185,6 +199,9 @@ body {
   }
   .table__header-headings-map {
     display: none;
+  }
+  #table__move {
+    margin-left: 1%;
   }
 }
 
