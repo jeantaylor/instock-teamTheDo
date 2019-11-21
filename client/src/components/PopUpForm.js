@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 
-const url = `http://localhost:5000/inventory`;
+const url = `http://localhost:8080/inventory`;
 export default class popUpForm extends Component {
   uploadNewProduct = event => {
     event.preventDefault();
@@ -11,16 +11,17 @@ export default class popUpForm extends Component {
       !event.target.lastOrdered.value ||
       !event.target.city.value ||
       !event.target.country.value ||
-      !event.target.quantity.value
+      !event.target.quantity.value ||
+      !event.target.warehouse.value
     ) {
       alert("Please enter all fields. Thank you!");
     } else {
       axios
-        .post(url, {
+        .put(url, {
+          warehouse: event.target.warehouse.value,
           product: event.target.product.value,
           lastOrdered: event.target.lastOrdered.value,
-          city: event.target.city.value,
-          country: event.target.country.value,
+          location: event.target.city.value + event.target.country.value,
           quantity: event.target.quantity.value
         })
         .then(res => {
@@ -34,14 +35,22 @@ export default class popUpForm extends Component {
       <div className='popUpForm'>
         <h1 className='popUpForm__heading'>Create New</h1>
         <form
-          className='popUpForm__form'
+          action='/'
+          method='PUT'
           onSubmit={this.uploadNewProduct}
-          className='popUpForm__upload'>
+          className='popUpForm__upload-form'>
           <h4 className='popUpForm__heading-small'>PRODUCT</h4>
           <input
             type='text'
             name='product'
             placeholder='Item Name'
+            className='popUpForm__input'
+          />
+          <h4 className='popUpForm__heading-small'>WAREHOUSE</h4>
+          <input
+            type='text'
+            name='warehouse'
+            placeholder='warehouse'
             className='popUpForm__input'
           />
           <h4 className='popUpForm__heading-small'>LAST ORDERED</h4>

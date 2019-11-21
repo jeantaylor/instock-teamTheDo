@@ -6,7 +6,7 @@ import { Switch, Route } from "react-router-dom";
 import Header from "./components/header";
 import Inventory from "./components/inventory";
 import Location from "./components/location";
-// import PopUpForm from "./components/PopUpForm";
+import PopUpForm from "./components/PopUpForm";
 
 //import ProductHeader from "./components/inventory/ProductHeader";
 // import TableHeader from "./components/location/locationTableHeader";
@@ -16,18 +16,18 @@ import ProductSummary from "./components/inventory/productSummary";
 
 function App() {
   return (
-    <div className="app">
+    <div className='app'>
       <Header />
       <Switch>
-        <Route exact path="/inventory" component={Inventory} />
+        <Route exact path='/inventory' component={Inventory} />
         <Route
-          path="/inventory/:ref"
+          path='/inventory/:ref'
           render={props => {
             return <Inventory {...props} />;
           }}
         />
-        <Route path="/locations" component={Location} />
-        {/* <Route path='/inventory' component={PopUpForm} /> */}
+        <Route path='/locations' component={Location} />
+        <Route path='/createNew' component={PopUpForm} />
       </Switch>
     </div>
   );

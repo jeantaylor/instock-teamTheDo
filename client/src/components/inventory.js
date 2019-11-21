@@ -6,6 +6,7 @@ import axios from "axios";
 import KbabMenu from "./inventory/InventoryKbabMenu";
 import ProductSummary from "./inventory/productSummary";
 
+
 export default class inventory extends Component {
   constructor() {
     super();
@@ -51,13 +52,11 @@ export default class inventory extends Component {
     });
     console.log(this.state.inventory);
     return (
-      <div className="inventory">
+      <div className='inventory'>
         <CreateButton />
         <ProductSummary />
         <h1 className="inventory__heading">Inventory</h1>
-
         <TableHeader />
-
         {newInventory}
       </div>
     );

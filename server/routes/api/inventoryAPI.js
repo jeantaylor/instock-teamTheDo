@@ -17,6 +17,37 @@ router.get("/", (req, res) => {
   res.json(inventory);
 });
 
+router.put("/", (req, res) => {
+  // console.log(req.body);
+  const found = inventory.some(
+    warehouse => warehouse.warehouse === req.body.warehouse
+  );
+
+  if (found) {
+    let warehouseIndex = inventory.findIndex(
+      warehouse => warehouse.warehouse === req.body.warehouse
+    );
+
+    const newInventory = {
+      ref: uuid(),
+      warehouse: req.body.warehouse,
+      name: req.body.product,
+      lastOrdered: req.body.lastOrdered,
+      location: req.body.location,
+      quantity: req.body.quantity,
+      desc: "",
+      categories: ""
+    };
+    inventory[warehouseIndex].products.push(newInventory);
+    // console.log(inventory);
+    helper.writeJSONFile(inventoryData, inventory);
+  } else {
+    res.status(400).json({
+      errorMessage: `Warehouse with ID: ${req.params.warehouse} not found`
+    });
+  }
+});
+
 /// HTTP Req Methods
 // Template:
 // router.get("/", (req, res) => {
