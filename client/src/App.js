@@ -18,7 +18,6 @@ function App() {
   return (
     <div className='app'>
       <Header />
-      <ProductSummary />
       <Switch>
         <Route exact path='/inventory' component={Inventory} />
         <Route
