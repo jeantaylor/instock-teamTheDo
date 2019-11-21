@@ -16,13 +16,13 @@ import ProductSummary from "./components/inventory/productSummary";
 
 function App() {
   return (
-    <div className="app">
+    <div className='app'>
       <Header />
 
       <Switch>
-        <Route exact path="/inventory" component={Inventory} />
+        <Route exact path='/inventory' component={Inventory} />
         <Route
-          path="/inventory/:ref"
+          path='/inventory/:ref'
           render={props => {
             return (
               <>
@@ -32,8 +32,7 @@ function App() {
             );
           }}
         />
-        <Route path="/locations" component={Location} />
-        <Route path="/createNew" component={PopUpForm} />
+        <Route path='/locations' component={Location} />
       </Switch>
     </div>
   );
