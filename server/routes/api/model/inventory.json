@@ -15,6 +15,7 @@
         "desc": "2019 Brand new super-charged jet ski",
         "lastOrdered": "11/18/2019",
         "location": "Toronto, CAN",
+        "warehouse": "Toronto Warehouse",
         "quantity": 1,
         "status": "In Stock",
         "categories": ["water", "jet", "ski", "ocean"]
@@ -25,6 +26,7 @@
         "desc": "Brand new Channel Islands 5,4ft short boards",
         "lastOrdered": "11/10/2019",
         "location": "Toronto, CAN",
+        "warehouse": "Toronto Warehouse",
         "quantity": 3,
         "status": "In Stock",
         "categories": ["water", "jet", "ski", "ocean"]
@@ -35,6 +37,7 @@
         "desc": "Best brand new ocean sturdy kayak",
         "lastOrdered": "11/10/2019",
         "location": "Toronto, CAN",
+        "warehouse": "Toronto Warehouse",
         "quantity": 3,
         "status": "In Stock",
         "categories": ["water", "jet", "ski", "ocean"]
@@ -57,6 +60,7 @@
         "desc": "super soft, cuddly onesies available in all sizes",
         "lastOrdered": "11/18/2019",
         "location": "Vancouver, CAN",
+        "warehouse": "Vancouver Warehouse",
         "quantity": 1,
         "status": "In Stock",
         "categories": ["cotton", "soft", "sleep", "night"]
@@ -67,6 +71,7 @@
         "desc": "Brand new soft slippers that are perfect for everyone",
         "lastOrdered": "11/10/2019",
         "location": "Vancouver, CAN",
+        "warehouse": "Vancouver Warehouse",
         "quantity": 3,
         "status": "In Stock",
         "categories": ["cotton", "soft", "sleep", "night"]
@@ -77,6 +82,7 @@
         "desc": "Super soft beanie for the cold days",
         "lastOrdered": "11/10/2019",
         "location": "Vancouver, CAN",
+        "warehouse": "Vancouver Warehouse",
         "quantity": 3,
         "status": "In Stock",
         "categories": ["cotton", "soft", "sleep", "night"]
@@ -99,6 +105,7 @@
         "desc": "Fun times are always had on rollerblades",
         "lastOrdered": "11/18/2019",
         "location": "Ontario, CAN",
+        "warehouse": "Ontario Warehouse",
         "quantity": 1,
         "status": "In Stock",
         "categories": ["speed", "wheels", "trucks", "decks"]
@@ -109,6 +116,7 @@
         "desc": "Be cooler and ride a cool skateboard",
         "lastOrdered": "11/10/2019",
         "location": "Ontario, CAN",
+        "warehouse": "Ontario Warehouse",
         "quantity": 3,
         "status": "In Stock",
         "categories": ["speed", "wheels", "trucks", "decks"]
@@ -119,6 +127,7 @@
         "desc": "Go anywhere with these dope as bikes",
         "lastOrdered": "11/10/2019",
         "location": "Ontario, CAN",
+        "warehouse": "Ontario Warehouse",
         "quantity": 3,
         "status": "In Stock",
         "categories": ["speed", "wheels", "trucks", "decks"]
@@ -141,6 +150,7 @@
         "desc": "The ultimate brand new snowboard to shred the slopes",
         "lastOrdered": "11/18/2019",
         "location": "Nova Scotia, CAN",
+        "warehouse": "Nova Scotia Warehouse",
         "quantity": 1,
         "status": "In Stock",
         "categories": ["snow", "mountains", "skiis", "boards"]
@@ -151,6 +161,7 @@
         "desc": "slide down the slopes with these skiis",
         "lastOrdered": "11/10/2019",
         "location": "Nova Scotia, CAN",
+        "warehouse": "Nova Scotia Warehouse",
         "quantity": 3,
         "status": "In Stock",
         "categories": ["snow", "mountains", "skiis", "boards"]
@@ -161,6 +172,7 @@
         "desc": "Feel like a kid again going down hills and stuff",
         "lastOrdered": "11/10/2019",
         "location": "Nova Scotia, CAN",
+        "warehouse": "Nova Scotia Warehouse",
         "quantity": 3,
         "status": "In Stock",
         "categories": ["snow", "mountains", "skiis", "boards"]
@@ -183,6 +195,7 @@
         "desc": "All sizes come and get your permanent markers called Sharpies",
         "lastOrdered": "11/18/2019",
         "location": "California, USA",
+        "warehouse": "Los Angeles Warehouse",
         "quantity": 1,
         "status": "In Stock",
         "categories": ["supplies", "paper", "office", "work"]
@@ -193,6 +206,7 @@
         "desc": "The best most eco-friendly paper around",
         "lastOrdered": "11/10/2019",
         "location": "California, USA",
+        "warehouse": "Los Angeles Warehouse",
         "quantity": 3,
         "status": "In Stock",
         "categories": ["supplies", "paper", "office", "work"]
@@ -203,6 +217,7 @@
         "desc": "Most sturdy desk in the market, come get yours today",
         "lastOrdered": "11/10/2019",
         "location": "California, USA",
+        "warehouse": "Los Angeles Warehouse",
         "quantity": 3,
         "status": "In Stock",
         "categories": ["supplies", "paper", "office", "work"]
@@ -225,6 +240,7 @@
         "desc": "Brand new top notch weed eater for all your needs",
         "lastOrdered": "11/18/2019",
         "location": "California, USA",
+        "warehouse": "San Diego Warehouse",
         "quantity": 1,
         "status": "Out of Stock",
         "categories": ["yard", "house", "tools", "field"]
@@ -235,6 +251,7 @@
         "desc": "The most powerful best lawnmower on the market",
         "lastOrdered": "11/10/2019",
         "location": "California, USA",
+        "warehouse": "San Diego Warehouse",
         "quantity": 3,
         "status": "In Stock",
         "categories": ["yard", "house", "tools", "field"]
@@ -245,6 +262,7 @@
         "desc": "For the wettest yards use these sprinklers",
         "lastOrdered": "11/10/2019",
         "location": "California, USA",
+        "warehouse": "San Diego Warehouse",
         "quantity": 3,
         "status": "In Stock",
         "categories": ["yard", "house", "tools", "field"]
@@ -267,6 +285,7 @@
         "desc": "To keep out of the rain and the sprinklers from before use these",
         "lastOrdered": "11/18/2019",
         "location": "Washington, USA",
+        "warehouse": "Seattle Warehouse",
         "quantity": 1,
         "status": "Out of Stock",
         "categories": ["walking", "rain", "sad", "cold"]
@@ -277,6 +296,7 @@
         "desc": "To keep  your feet nice and dry use these",
         "lastOrdered": "11/10/2019",
         "location": "Washington, USA",
+        "warehouse": "Seattle Warehouse",
         "quantity": 3,
         "status": "In Stock",
         "categories": ["walking", "rain", "sad", "cold"]
@@ -287,6 +307,7 @@
         "desc": "To keep yourself dry use this coat made for wet days",
         "lastOrdered": "11/10/2019",
         "location": "Washington, USA",
+        "warehouse": "Seattle Warehouse",
         "quantity": 3,
         "status": "In Stock",
         "categories": ["walking", "rain", "sad", "cold"]
@@ -309,6 +330,7 @@
         "desc": "The top dog of all",
         "lastOrdered": "11/18/2019",
         "location": "Oregon, USA",
+        "warehouse": "Portland Warehouse",
         "quantity": 1,
         "status": "Out of Stock",
         "categories": ["computers", "big money", "tech life", "lets goo"]
@@ -319,6 +341,7 @@
         "desc": "Could maybe be second",
         "lastOrdered": "11/10/2019",
         "location": "Oregon, USA",
+        "warehouse": "Portland Warehouse",
         "quantity": 3,
         "status": "In Stock",
         "categories": ["computers", "big money", "tech life", "lets goo"]
@@ -329,6 +352,7 @@
         "desc": "Then we get here and that is all haha",
         "lastOrdered": "11/10/2019",
         "location": "Oregon, USA",
+        "warehouse": "Portland Warehouse",
         "quantity": 3,
         "status": "In Stock",
         "categories": ["computers", "big money", "tech life", "lets goo"]
@@ -351,6 +375,7 @@
         "desc": "The best in the game no doubt",
         "lastOrdered": "11/18/2019",
         "location": "Cape Town, SA",
+        "warehouse": "Cape Town Warehouse",
         "quantity": 1,
         "status": "Out of Stock",
         "categories": ["gaming", "E3", "COD", "Controller"]
@@ -361,6 +386,7 @@
         "desc": "Third for sure no question",
         "lastOrdered": "11/10/2019",
         "location": "Cape Town, SA",
+        "warehouse": "Cape Town Warehouse",
         "quantity": 3,
         "status": "In Stock",
         "categories": ["gaming", "E3", "COD", "Controller"]
@@ -371,6 +397,7 @@
         "desc": "For the die hards",
         "lastOrdered": "11/10/2019",
         "location": "Cape Town, SA",
+        "warehouse": "Cape Town Warehouse",
         "quantity": 3,
         "status": "In Stock",
         "categories": ["gaming", "E3", "COD", "Controller"]

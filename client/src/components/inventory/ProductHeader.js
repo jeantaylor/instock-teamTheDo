@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import backArrow from "../../assets/Icons/SVG/Icon-back-arrow.svg";
 
 export default function productHeader() {
@@ -6,11 +7,13 @@ export default function productHeader() {
     <div className="product__header">
       <div className="product__header__wrapper">
         <div className="product__header__title__wrapper">
-          <img
-            className="product__header__icon"
-            src={backArrow}
-            alt="back arrow"
-          />
+          <Link to="/inventory">
+            <img
+              className="product__header__icon"
+              src={backArrow}
+              alt="back arrow"
+            />
+          </Link>
           <h1 className="product__header__title">Product Name</h1>
         </div>
         <button className="product__header__button">In Stock</button>

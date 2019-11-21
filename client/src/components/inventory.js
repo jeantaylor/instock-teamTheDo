@@ -82,9 +82,11 @@ export default class inventory extends Component {
             <div className='inventory__group'>
               <h4 className='table__header-headings-map'>ITEM</h4>
               <Link
-                to={`/inventory/${product.ref}`}
-                params={{ product: `${product.ref}` }}>
-                <h2 className='inventory__name'>{product.name}</h2>
+                to={`/inventory/?${product.warehouse}&product=${product.ref}`}
+                params={{ product: `${product.ref}` }}
+              >
+                <h2 className="inventory__name">{product.name}</h2>
+
               </Link>
               <h4 className='inventory__description'>{product.desc}</h4>
             </div>{" "}
