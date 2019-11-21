@@ -339,8 +339,18 @@ body {
 }
 
 .product__header__button {
+  display: none;
   background: #5fb709;
   color: #fff;
+  border: none;
+  border-radius: 4px;
+  height: 32px;
+  width: 88px;
+}
+
+.product__header__button-oos {
+  background: #e1e1e1;
+  color: black;
   border: none;
   border-radius: 4px;
   height: 32px;
