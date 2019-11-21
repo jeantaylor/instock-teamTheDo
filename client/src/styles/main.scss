@@ -10,7 +10,7 @@ body {
 
   a {
     text-decoration: none;
-    color: #323232; 
+    color: #323232;
   }
 }
 
@@ -33,4 +33,5 @@ body {
 @import "./partials/inventory/createButton";
 @import "./partials/inventory/productHeader";
 @import "./partials/inventory/productSummary";
+@import "./partials/inventory/popUpForm";
 @import "./partials/locations";
