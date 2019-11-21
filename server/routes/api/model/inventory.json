@@ -11,33 +11,33 @@
     "products": [
       {
         "ref": "bsWebDevTeam1",
-        "name": "TheDo",
-        "desc": "Top team from BrainStation's FT WebDev Programme Fall '19",
+        "name": " Jet Ski",
+        "desc": "2019 Brand new super-charged jet ski",
         "lastOrdered": "11/18/2019",
-        "location": "Vancouver, CAN",
+        "location": "Toronto, CAN",
         "quantity": 1,
         "status": "In Stock",
-        "categories": ["HTML5", "CSS3", "Node.js", "TheBest"]
+        "categories": ["water", "jet", "ski", "ocean"]
       },
       {
         "ref": "bsWebDevTeam22",
-        "name": "JenIsSadTwo",
-        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "name": "Surfboards",
+        "desc": "Brand new Channel Islands 5,4ft short boards",
         "lastOrdered": "11/10/2019",
-        "location": "Vancouver, CAN",
+        "location": "Toronto, CAN",
         "quantity": 3,
         "status": "In Stock",
-        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+        "categories": ["water", "jet", "ski", "ocean"]
       },
       {
         "ref": "bsWebDevTeam222",
-        "name": "JenIsSadThree",
-        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "name": "Ocean Kayak",
+        "desc": "Best brand new ocean sturdy kayak",
         "lastOrdered": "11/10/2019",
-        "location": "Vancouver, CAN",
+        "location": "Toronto, CAN",
         "quantity": 3,
         "status": "In Stock",
-        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+        "categories": ["water", "jet", "ski", "ocean"]
       }
     ]
   },
@@ -53,33 +53,33 @@
     "products": [
       {
         "ref": "bsWebDevTeam2",
-        "name": "JenIsSad",
-        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "name": "Onesies",
+        "desc": "super soft, cuddly onesies available in all sizes",
         "lastOrdered": "11/18/2019",
         "location": "Vancouver, CAN",
         "quantity": 1,
         "status": "In Stock",
-        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+        "categories": ["cotton", "soft", "sleep", "night"]
       },
       {
         "ref": "bsWebDevTeam100",
-        "name": "JenIsSadFour",
-        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "name": "Slippers",
+        "desc": "Brand new soft slippers that are perfect for everyone",
         "lastOrdered": "11/10/2019",
         "location": "Vancouver, CAN",
         "quantity": 3,
         "status": "In Stock",
-        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+        "categories": ["cotton", "soft", "sleep", "night"]
       },
       {
         "ref": "bsWebDevTeam111",
-        "name": "JenIsSadFive",
-        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "name": "Beanie",
+        "desc": "Super soft beanie for the cold days",
         "lastOrdered": "11/10/2019",
         "location": "Vancouver, CAN",
         "quantity": 3,
         "status": "In Stock",
-        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+        "categories": ["cotton", "soft", "sleep", "night"]
       }
     ]
   },
@@ -95,33 +95,33 @@
     "products": [
       {
         "ref": "bsWebDevTeam3",
-        "name": "404-CoffeeNotFound",
-        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "name": "Rollerblades",
+        "desc": "Fun times are always had on rollerblades",
         "lastOrdered": "11/18/2019",
-        "location": "Vancouver, CAN",
+        "location": "Ontario, CAN",
         "quantity": 1,
         "status": "In Stock",
-        "categories": ["HTML5", "CSS3", "Node.js", "#coffeesnob"]
+        "categories": ["speed", "wheels", "trucks", "decks"]
       },
       {
         "ref": "bsWebDevTeam200",
-        "name": "JenIsSadSeven",
-        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "name": "Skateboards",
+        "desc": "Be cooler and ride a cool skateboard",
         "lastOrdered": "11/10/2019",
-        "location": "Vancouver, CAN",
+        "location": "Ontario, CAN",
         "quantity": 3,
         "status": "In Stock",
-        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+        "categories": ["speed", "wheels", "trucks", "decks"]
       },
       {
         "ref": "bsWebDevTeam2001",
-        "name": "JenIsSadEight",
-        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "name": "Bicycles",
+        "desc": "Go anywhere with these dope as bikes",
         "lastOrdered": "11/10/2019",
-        "location": "Vancouver, CAN",
+        "location": "Ontario, CAN",
         "quantity": 3,
         "status": "In Stock",
-        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+        "categories": ["speed", "wheels", "trucks", "decks"]
       }
     ]
   },
@@ -137,33 +137,33 @@
     "products": [
       {
         "ref": "bsWebDevTeam4",
-        "name": "riri-undefined",
-        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "name": "Snowboards",
+        "desc": "The ultimate brand new snowboard to shred the slopes",
         "lastOrdered": "11/18/2019",
-        "location": "Vancouver, CAN",
+        "location": "Nova Scotia, CAN",
         "quantity": 1,
         "status": "In Stock",
-        "categories": ["HTML5", "CSS3", "Node.js", "+10 Enthusiasm"]
+        "categories": ["snow", "mountains", "skiis", "boards"]
       },
       {
         "ref": "bsWebDevTeam300",
-        "name": "JenIsSadTwo",
-        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "name": "Snow Skis",
+        "desc": "slide down the slopes with these skiis",
         "lastOrdered": "11/10/2019",
-        "location": "Vancouver, CAN",
+        "location": "Nova Scotia, CAN",
         "quantity": 3,
         "status": "In Stock",
-        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+        "categories": ["snow", "mountains", "skiis", "boards"]
       },
       {
         "ref": "bsWebDevTeam303",
-        "name": "JenIsSadTwo",
-        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "name": "Sleds",
+        "desc": "Feel like a kid again going down hills and stuff",
         "lastOrdered": "11/10/2019",
-        "location": "Vancouver, CAN",
+        "location": "Nova Scotia, CAN",
         "quantity": 3,
         "status": "In Stock",
-        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+        "categories": ["snow", "mountains", "skiis", "boards"]
       }
     ]
   },
@@ -179,33 +179,33 @@
     "products": [
       {
         "ref": "bsWebDevTeam5",
-        "name": "ROL",
-        "desc": "Top team from BrainStation's FT WebDev Programme Fall '19",
+        "name": "Sharpies",
+        "desc": "All sizes come and get your permanent markers called Sharpies",
         "lastOrdered": "11/18/2019",
-        "location": "Vancouver, CAN",
+        "location": "California, USA",
         "quantity": 1,
         "status": "In Stock",
-        "categories": ["HTML5", "CSS3", "Node.js", "Sugar"]
+        "categories": ["supplies", "paper", "office", "work"]
       },
       {
         "ref": "bsWebDevTeam400",
-        "name": "JenIsSadNine",
-        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "name": "Paper",
+        "desc": "The best most eco-friendly paper around",
         "lastOrdered": "11/10/2019",
-        "location": "Vancouver, CAN",
+        "location": "California, USA",
         "quantity": 3,
         "status": "In Stock",
-        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+        "categories": ["supplies", "paper", "office", "work"]
       },
       {
         "ref": "bsWebDevTeam404",
-        "name": "JenIsSadTen",
-        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "name": "Mahogany desk",
+        "desc": "Most sturdy desk in the market, come get yours today",
         "lastOrdered": "11/10/2019",
-        "location": "Vancouver, CAN",
+        "location": "California, USA",
         "quantity": 3,
         "status": "In Stock",
-        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+        "categories": ["supplies", "paper", "office", "work"]
       }
     ]
   },
@@ -221,33 +221,33 @@
     "products": [
       {
         "ref": "bsWebDevTeam6",
-        "name": "N-APi",
-        "desc": "Top team from BrainStation's FT WebDev Programme Fall '19",
+        "name": "Weed Eater",
+        "desc": "Brand new top notch weed eater for all your needs",
         "lastOrdered": "11/18/2019",
-        "location": "Vancouver, CAN",
+        "location": "California, USA",
         "quantity": 1,
         "status": "Out of Stock",
-        "categories": ["HTML5", "CSS3", "Node.js", "+50 Leadership"]
+        "categories": ["yard", "house", "tools", "field"]
       },
       {
         "ref": "bsWebDevTeam777",
-        "name": "JenIsSadHello",
-        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "name": "Lawnmower",
+        "desc": "The most powerful best lawnmower on the market",
         "lastOrdered": "11/10/2019",
-        "location": "Vancouver, CAN",
+        "location": "California, USA",
         "quantity": 3,
         "status": "In Stock",
-        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+        "categories": ["yard", "house", "tools", "field"]
       },
       {
         "ref": "bsWebDevTeam888",
-        "name": "JenIsSadBye",
-        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "name": "Sprinklers",
+        "desc": "For the wettest yards use these sprinklers",
         "lastOrdered": "11/10/2019",
-        "location": "Vancouver, CAN",
+        "location": "California, USA",
         "quantity": 3,
         "status": "In Stock",
-        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+        "categories": ["yard", "house", "tools", "field"]
       }
     ]
   },
@@ -263,33 +263,33 @@
     "products": [
       {
         "ref": "bsWebDevTeam7",
-        "name": "IAmAProductOne",
-        "desc": "Top team from BrainStation's FT WebDev Programme Fall '19",
+        "name": "Umbrellas",
+        "desc": "To keep out of the rain and the sprinklers from before use these",
         "lastOrdered": "11/18/2019",
-        "location": "Vancouver, CAN",
+        "location": "Washington, USA",
         "quantity": 1,
         "status": "Out of Stock",
-        "categories": ["HTML5", "CSS3", "Node.js", "+50 Leadership"]
+        "categories": ["walking", "rain", "sad", "cold"]
       },
       {
         "ref": "bsWebDevTeam500",
-        "name": "JenIsSadEleven",
-        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "name": "Rain boots",
+        "desc": "To keep  your feet nice and dry use these",
         "lastOrdered": "11/10/2019",
-        "location": "Vancouver, CAN",
+        "location": "Washington, USA",
         "quantity": 3,
         "status": "In Stock",
-        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+        "categories": ["walking", "rain", "sad", "cold"]
       },
       {
         "ref": "bsWebDevTeam909",
-        "name": "JenIsSadTwelve",
-        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "name": "Trench coat",
+        "desc": "To keep yourself dry use this coat made for wet days",
         "lastOrdered": "11/10/2019",
-        "location": "Vancouver, CAN",
+        "location": "Washington, USA",
         "quantity": 3,
         "status": "In Stock",
-        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+        "categories": ["walking", "rain", "sad", "cold"]
       }
     ]
   },
@@ -305,39 +305,39 @@
     "products": [
       {
         "ref": "bsWebDevTeam8",
-        "name": "IAmAProductTwo",
-        "desc": "Top team from BrainStation's FT WebDev Programme Fall '19",
+        "name": "Apple Mac",
+        "desc": "The top dog of all",
         "lastOrdered": "11/18/2019",
-        "location": "Vancouver, CAN",
+        "location": "Oregon, USA",
         "quantity": 1,
         "status": "Out of Stock",
-        "categories": ["HTML5", "CSS3", "Node.js", "+50 Leadership"]
+        "categories": ["computers", "big money", "tech life", "lets goo"]
       },
       {
         "ref": "bsWebDevTeam990",
-        "name": "JenIsSadThirteen",
-        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "name": "Linux",
+        "desc": "Could maybe be second",
         "lastOrdered": "11/10/2019",
-        "location": "Vancouver, CAN",
+        "location": "Oregon, USA",
         "quantity": 3,
         "status": "In Stock",
-        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+        "categories": ["computers", "big money", "tech life", "lets goo"]
       },
       {
         "ref": "bsWebDevTeam800",
-        "name": "JenIsSadFourteen",
-        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "name": "Microsoft Surface",
+        "desc": "Then we get here and that is all haha",
         "lastOrdered": "11/10/2019",
-        "location": "Vancouver, CAN",
+        "location": "Oregon, USA",
         "quantity": 3,
         "status": "In Stock",
-        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+        "categories": ["computers", "big money", "tech life", "lets goo"]
       }
     ]
   },
   {
     "id": "123-456-124",
-    "warehouse": "Toronto Warehouse",
+    "warehouse": "Cape Two Warehouse",
     "address": "40 Bay St, Toronto, ON M5J 2X2",
     "name": "Pascal Siakam",
     "position": "Manager",
@@ -347,33 +347,33 @@
     "products": [
       {
         "ref": "bsWebDevTeam9",
-        "name": "IAmAProductThree",
-        "desc": "Top team from BrainStation's FT WebDev Programme Fall '19",
+        "name": "Playstation",
+        "desc": "The best in the game no doubt",
         "lastOrdered": "11/18/2019",
-        "location": "Vancouver, CAN",
+        "location": "Cape Town, SA",
         "quantity": 1,
         "status": "Out of Stock",
-        "categories": ["HTML5", "CSS3", "Node.js", "+50 Leadership"]
+        "categories": ["gaming", "E3", "COD", "Controller"]
       },
       {
         "ref": "bsWebDevTeam505",
-        "name": "JenIsSadfifteen",
-        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "name": "Xbox",
+        "desc": "Third for sure no question",
         "lastOrdered": "11/10/2019",
-        "location": "Vancouver, CAN",
+        "location": "Cape Town, SA",
         "quantity": 3,
         "status": "In Stock",
-        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+        "categories": ["gaming", "E3", "COD", "Controller"]
       },
       {
         "ref": "bsWebDevTeam606",
-        "name": "JenIsSadSixteen",
-        "desc": "Team from BrainStation's FT WebDev Programme Fall '19",
+        "name": "PC",
+        "desc": "For the die hards",
         "lastOrdered": "11/10/2019",
-        "location": "Vancouver, CAN",
+        "location": "Cape Town, SA",
         "quantity": 3,
         "status": "In Stock",
-        "categories": ["HTML5", "CSS3", "Node.js", "Hard-working!"]
+        "categories": ["gaming", "E3", "COD", "Controller"]
       }
     ]
   }
