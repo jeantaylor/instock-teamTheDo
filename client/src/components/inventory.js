@@ -30,7 +30,7 @@ export default class inventory extends Component {
             <div className="inventory__group">
               <h4 className="table__header-headings-map">ITEM</h4>
               <Link
-                to={`/inventory/${product.ref}`}
+                to={`/inventory/?${product.warehouse}&product=${product.ref}`}
                 params={{ product: `${product.ref}` }}
               >
                 <h2 className="inventory__name">{product.name}</h2>

@@ -18,8 +18,11 @@ router.get("/", (req, res) => {
 });
 
 router.get("/:ref", (req, res) => {
-  res.json(inventory);
+  res.json(
+    inventory.filter(inventory => inventory.products.ref === req.params.ref)
+  );
 });
+// const getRef = inventory.filter(inventory => inventory.products.ref === req.params.ref)
 
 router.put("/", (req, res) => {
   // console.log(req.body);
