@@ -17,6 +17,10 @@ router.get("/", (req, res) => {
   res.json(inventory);
 });
 
+router.get("/:ref", (req, res) => {
+  res.json(inventory);
+});
+
 router.put("/", (req, res) => {
   // console.log(req.body);
   const found = inventory.some(

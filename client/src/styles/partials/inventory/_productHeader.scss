@@ -14,12 +14,22 @@
     font-size: 24px;
   }
   &__button {
+    display: none;
     background: $instock-green;
     color: $white;
     border: none;
     border-radius: 4px;
     height: 32px;
     width: 88px;
+    &-oos {
+      //display:none;
+      background: $mercury;
+      color: black;
+      border: none;
+      border-radius: 4px;
+      height: 32px;
+      width: 88px;
+    }
   }
 }
 
