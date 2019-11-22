@@ -22,12 +22,12 @@ function App() {
       <Switch>
         <Route exact path="/inventory" component={Inventory} />
         <Route
-          path="/inventory/:ref"
+          path="/inventory/:warehouse/:product"
           render={props => {
             return (
               <>
                 <ProductHeader />
-                <ProductSummary />
+                <ProductSummary {...props} />
               </>
             );
           }}

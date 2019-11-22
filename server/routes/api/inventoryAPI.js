@@ -17,12 +17,21 @@ router.get("/", (req, res) => {
   res.json(inventory);
 });
 
-router.get("/:ref", (req, res) => {
-  res.json(
-    inventory.filter(inventory => inventory.products.ref === req.params.ref)
+router.get("/:warehouse/:product", (req, res) => {
+  // res.json({msg: "At least one thing works?"})
+
+  const foundWarehouse = inventory.filter(
+    place => place.warehouse === req.params.warehouse
   );
+
+  const warehouseData = foundWarehouse[0]
+
+  const foundItem = warehouseData.products.filter(
+    item => item.ref === req.params.product
+  );
+
+  res.json(foundItem[0]);
 });
-// const getRef = inventory.filter(inventory => inventory.products.ref === req.params.ref)
 
 router.put("/", (req, res) => {
   // console.log(req.body);
