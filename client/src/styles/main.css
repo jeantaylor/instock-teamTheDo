@@ -8,6 +8,12 @@ body {
           box-sizing: border-box;
 }
 
+html a,
+body a {
+  text-decoration: none;
+  color: #323232;
+}
+
 /* Enforces border-box for whole site */
 *,
 *:before,
@@ -398,6 +404,53 @@ body {
 @media only screen and (min-width: 1440px) {
   .className {
     margin: 0;
+  }
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-main {
+  position: fixed;
+  background: white;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.modal-main button {
+  float: right;
+}
+
+.popUpForm__upload-form {
+  padding: 0 5%;
+}
+
+.popUpForm__heading {
+  margin: 10px 5% 0 5%;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .modal-main {
+    width: 75%;
+    height: 666px;
   }
 }
 

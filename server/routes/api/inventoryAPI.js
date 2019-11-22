@@ -64,6 +64,10 @@ router.put("/", (req, res) => {
   }
 });
 
+router.delete("/", (req, res) => {
+  
+})
+
 /// HTTP Req Methods
 // Template:
 // router.get("/", (req, res) => {
