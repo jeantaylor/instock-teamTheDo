@@ -6,7 +6,6 @@ import { Switch, Route } from "react-router-dom";
 import Header from "./components/header";
 import Inventory from "./components/inventory";
 import Location from "./components/location";
-import PopUpForm from "./components/PopUpForm";
 import ProductHeader from "./components/inventory/ProductHeader";
 import ProductSummary from "./components/inventory/productSummary";
 

@@ -67,10 +67,10 @@ export default class inventory extends Component {
 
       return (
         <div className={showHideClassName}>
-          <section className='modal-main'>
+          <div className='modal-main'>
             {children}
             <button onClick={handleClose}>close</button>
-          </section>
+          </div>
         </div>
       );
     };
@@ -83,10 +83,8 @@ export default class inventory extends Component {
               <h4 className='table__header-headings-map'>ITEM</h4>
               <Link
                 to={`/inventory/?${product.warehouse}&product=${product.ref}`}
-                params={{ product: `${product.ref}` }}
-              >
-                <h2 className="inventory__name">{product.name}</h2>
-
+                params={{ product: `${product.ref}` }}>
+                <h2 className='inventory__name'>{product.name}</h2>
               </Link>
               <h4 className='inventory__description'>{product.desc}</h4>
             </div>{" "}
@@ -126,66 +124,65 @@ export default class inventory extends Component {
             <img className='create__button__icon' src={Add} alt='Add Icon' />
           </button>
           <Modal show={this.state.show} handleClose={this.hideModal}>
-            <div className='popUpForm'>
-              <h1 className='popUpForm__heading'>Create New</h1>
-              <form
-                action='/'
-                method='PUT'
-                onSubmit={this.uploadNewProduct}
-                className='popUpForm__upload-form'>
-                <h4 className='popUpForm__heading-small'>PRODUCT</h4>
-                <input
-                  type='text'
-                  name='product'
-                  placeholder='Item Name'
-                  className='popUpForm__input'
-                />
-                <h4 className='popUpForm__heading-small'>WAREHOUSE</h4>
-                <input
-                  type='text'
-                  name='warehouse'
-                  placeholder='warehouse'
-                  className='popUpForm__input'
-                />
-                <h4 className='popUpForm__heading-small'>LAST ORDERED</h4>
-                <input
-                  type='text'
-                  name='lastOrdered'
-                  placeholder='yyyy-mm-dd'
-                  className='popUpForm__input'
-                />
-                <h4 className='popUpForm__heading-small'>CITY</h4>
-                <input
-                  type='text'
-                  name='city'
-                  placeholder='City'
-                  className='popUpForm__input'
-                />
-                <h4 className='popUpForm__heading-small'>COUNTRY</h4>
-                <input
-                  type='text'
-                  name='country'
-                  placeholder='Country'
-                  className='popUpForm__input'
-                />
-                <h4 className='popUpForm__heading-small'>QUANTITY</h4>
-                <input
-                  type='text'
-                  name='quantity'
-                  placeholder='0'
-                  className='popUpForm__input'
-                />
-                <h4 className='popUpForm__heading-small'>ITEM DESCRIPTION</h4>
-                <input
-                  type='text'
-                  name='description'
-                  placeholder='(Optional)'
-                  className='popUpForm__input-large'
-                />
-                <button className='popUpForm__button'>SAVE</button>
-              </form>
-            </div>
-            ;
+            {/* <div className='popUpForm'> */}
+            <h1 className='popUpForm__heading'>Create New</h1>
+            <form
+              action='/'
+              method='PUT'
+              onSubmit={this.uploadNewProduct}
+              className='popUpForm__upload-form'>
+              <h4 className='popUpForm__heading-small'>PRODUCT</h4>
+              <input
+                type='text'
+                name='product'
+                placeholder='Item Name'
+                className='popUpForm__input'
+              />
+              <h4 className='popUpForm__heading-small'>WAREHOUSE</h4>
+              <input
+                type='text'
+                name='warehouse'
+                placeholder='warehouse'
+                className='popUpForm__input'
+              />
+              <h4 className='popUpForm__heading-small'>LAST ORDERED</h4>
+              <input
+                type='text'
+                name='lastOrdered'
+                placeholder='yyyy-mm-dd'
+                className='popUpForm__input'
+              />
+              <h4 className='popUpForm__heading-small'>CITY</h4>
+              <input
+                type='text'
+                name='city'
+                placeholder='City'
+                className='popUpForm__input'
+              />
+              <h4 className='popUpForm__heading-small'>COUNTRY</h4>
+              <input
+                type='text'
+                name='country'
+                placeholder='Country'
+                className='popUpForm__input'
+              />
+              <h4 className='popUpForm__heading-small'>QUANTITY</h4>
+              <input
+                type='text'
+                name='quantity'
+                placeholder='0'
+                className='popUpForm__input'
+              />
+              <h4 className='popUpForm__heading-small'>ITEM DESCRIPTION</h4>
+              <input
+                type='text'
+                name='description'
+                placeholder='(Optional)'
+                className='popUpForm__input-large'
+              />
+              <button className='popUpForm__button'>SAVE</button>
+            </form>
+            {/* </div> */}
           </Modal>
         </div>
       </div>
