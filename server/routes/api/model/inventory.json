@@ -16,6 +16,7 @@
         "lastOrdered": "11/18/2019",
         "location": "Toronto, CAN",
         "warehouse": "Toronto Warehouse",
+        "orderedBy": "Pascal Siakam",
         "quantity": 1,
         "status": "In Stock",
         "categories": ["water", "jet", "ski", "ocean"]
@@ -27,6 +28,7 @@
         "lastOrdered": "11/10/2019",
         "location": "Toronto, CAN",
         "warehouse": "Toronto Warehouse",
+        "orderedBy": "Pascal Siakam",
         "quantity": 3,
         "status": "In Stock",
         "categories": ["water", "jet", "ski", "ocean"]
@@ -38,6 +40,7 @@
         "lastOrdered": "11/10/2019",
         "location": "Toronto, CAN",
         "warehouse": "Toronto Warehouse",
+        "orderedBy": "Pascal Siakam",
         "quantity": 3,
         "status": "In Stock",
         "categories": ["water", "jet", "ski", "ocean"]
@@ -48,7 +51,7 @@
     "id": "123-999-339",
     "warehouse": "Vancouver Warehouse",
     "address": "40 Bay St, Toronto, ON M5J 2X2",
-    "name": "Pascal Siakam",
+    "name": "Mike Bibby",
     "position": "Manager",
     "phone": "(416) 815-5500",
     "email": "p.siakam@the-do.com",
@@ -61,6 +64,7 @@
         "lastOrdered": "11/18/2019",
         "location": "Vancouver, CAN",
         "warehouse": "Vancouver Warehouse",
+        "orderedBy": "Mike Bibby",
         "quantity": 1,
         "status": "In Stock",
         "categories": ["cotton", "soft", "sleep", "night"]
@@ -72,6 +76,7 @@
         "lastOrdered": "11/10/2019",
         "location": "Vancouver, CAN",
         "warehouse": "Vancouver Warehouse",
+        "orderedBy": "Mike Bibby",
         "quantity": 3,
         "status": "In Stock",
         "categories": ["cotton", "soft", "sleep", "night"]
@@ -83,6 +88,7 @@
         "lastOrdered": "11/10/2019",
         "location": "Vancouver, CAN",
         "warehouse": "Vancouver Warehouse",
+        "orderedBy": "Mike Bibby",
         "quantity": 3,
         "status": "In Stock",
         "categories": ["cotton", "soft", "sleep", "night"]
@@ -91,9 +97,9 @@
   },
   {
     "id": "123-440-043",
-    "warehouse": "Ontario Warehouse",
+    "warehouse": "New York Warehouse",
     "address": "40 Bay St, Toronto, ON M5J 2X2",
-    "name": "Pascal Siakam",
+    "name": "Kevin Durant",
     "position": "Manager",
     "phone": "(416) 815-5500",
     "email": "p.siakam@the-do.com",
@@ -104,8 +110,9 @@
         "name": "Rollerblades",
         "desc": "Fun times are always had on rollerblades",
         "lastOrdered": "11/18/2019",
-        "location": "Ontario, CAN",
-        "warehouse": "Ontario Warehouse",
+        "location": "New York, USA",
+        "warehouse": "Brooklyn Warehouse",
+        "orderedBy": "Kevin Durant",
         "quantity": 1,
         "status": "In Stock",
         "categories": ["speed", "wheels", "trucks", "decks"]
@@ -115,8 +122,9 @@
         "name": "Skateboards",
         "desc": "Be cooler and ride a cool skateboard",
         "lastOrdered": "11/10/2019",
-        "location": "Ontario, CAN",
-        "warehouse": "Ontario Warehouse",
+        "location": "New York, USA",
+        "warehouse": "Brooklyn Warehouse",
+        "orderedBy": "Kevin Durant",
         "quantity": 3,
         "status": "In Stock",
         "categories": ["speed", "wheels", "trucks", "decks"]
@@ -126,8 +134,9 @@
         "name": "Bicycles",
         "desc": "Go anywhere with these dope as bikes",
         "lastOrdered": "11/10/2019",
-        "location": "Ontario, CAN",
-        "warehouse": "Ontario Warehouse",
+        "location": "New York, USA",
+        "warehouse": "Brooklyn Warehouse",
+        "orderedBy": "Kevin Durant",
         "quantity": 3,
         "status": "In Stock",
         "categories": ["speed", "wheels", "trucks", "decks"]
@@ -138,7 +147,7 @@
     "id": "123-948-204",
     "warehouse": "Nova Scotia Warehouse",
     "address": "40 Bay St, Toronto, ON M5J 2X2",
-    "name": "Pascal Siakam",
+    "name": "Kyle Lowry",
     "position": "Manager",
     "phone": "(416) 815-5500",
     "email": "p.siakam@the-do.com",
@@ -151,6 +160,7 @@
         "lastOrdered": "11/18/2019",
         "location": "Nova Scotia, CAN",
         "warehouse": "Nova Scotia Warehouse",
+        "orderedBy": "Kyle Lowry",
         "quantity": 1,
         "status": "In Stock",
         "categories": ["snow", "mountains", "skiis", "boards"]
@@ -162,6 +172,7 @@
         "lastOrdered": "11/10/2019",
         "location": "Nova Scotia, CAN",
         "warehouse": "Nova Scotia Warehouse",
+        "orderedBy": "Kyle Lowry",
         "quantity": 3,
         "status": "In Stock",
         "categories": ["snow", "mountains", "skiis", "boards"]
@@ -173,6 +184,7 @@
         "lastOrdered": "11/10/2019",
         "location": "Nova Scotia, CAN",
         "warehouse": "Nova Scotia Warehouse",
+        "orderedBy": "Kyle Lowry",
         "quantity": 3,
         "status": "In Stock",
         "categories": ["snow", "mountains", "skiis", "boards"]
@@ -183,7 +195,7 @@
     "id": "123-036-794",
     "warehouse": "Los Angeles Warehouse",
     "address": "40 Bay St, Toronto, ON M5J 2X2",
-    "name": "Pascal Siakam",
+    "name": "Kawhi Leonard",
     "position": "Manager",
     "phone": "(416) 815-5500",
     "email": "p.siakam@the-do.com",
@@ -196,6 +208,7 @@
         "lastOrdered": "11/18/2019",
         "location": "California, USA",
         "warehouse": "Los Angeles Warehouse",
+        "orderedBy": "Kawhi Leonard",
         "quantity": 1,
         "status": "In Stock",
         "categories": ["supplies", "paper", "office", "work"]
@@ -207,6 +220,7 @@
         "lastOrdered": "11/10/2019",
         "location": "California, USA",
         "warehouse": "Los Angeles Warehouse",
+        "orderedBy": "Kawhi Leonard",
         "quantity": 3,
         "status": "In Stock",
         "categories": ["supplies", "paper", "office", "work"]
@@ -218,6 +232,7 @@
         "lastOrdered": "11/10/2019",
         "location": "California, USA",
         "warehouse": "Los Angeles Warehouse",
+        "orderedBy": "Kawhi Leonard",
         "quantity": 3,
         "status": "In Stock",
         "categories": ["supplies", "paper", "office", "work"]
@@ -228,7 +243,7 @@
     "id": "123-036-794",
     "warehouse": "San Diego Warehouse",
     "address": "40 Bay St, Toronto, ON M5J 2X2",
-    "name": "Pascal Siakam",
+    "name": "Lebron James",
     "position": "Manager",
     "phone": "(416) 815-5500",
     "email": "p.siakam@the-do.com",
@@ -241,6 +256,7 @@
         "lastOrdered": "11/18/2019",
         "location": "California, USA",
         "warehouse": "San Diego Warehouse",
+        "orderedBy": "Lebron James",
         "quantity": 1,
         "status": "Out of Stock",
         "categories": ["yard", "house", "tools", "field"]
@@ -252,6 +268,7 @@
         "lastOrdered": "11/10/2019",
         "location": "California, USA",
         "warehouse": "San Diego Warehouse",
+        "orderedBy": "Lebron James",
         "quantity": 3,
         "status": "In Stock",
         "categories": ["yard", "house", "tools", "field"]
@@ -263,6 +280,7 @@
         "lastOrdered": "11/10/2019",
         "location": "California, USA",
         "warehouse": "San Diego Warehouse",
+        "orderedBy": "Lebron James",
         "quantity": 3,
         "status": "In Stock",
         "categories": ["yard", "house", "tools", "field"]
@@ -273,7 +291,7 @@
     "id": "123-980-789",
     "warehouse": "Seattle Warehouse",
     "address": "40 Bay St, Toronto, ON M5J 2X2",
-    "name": "Pascal Siakam",
+    "name": "Ray Allen",
     "position": "Manager",
     "phone": "(416) 815-5500",
     "email": "p.siakam@the-do.com",
@@ -286,6 +304,7 @@
         "lastOrdered": "11/18/2019",
         "location": "Washington, USA",
         "warehouse": "Seattle Warehouse",
+        "orderedBy": "Ray Allen",
         "quantity": 1,
         "status": "Out of Stock",
         "categories": ["walking", "rain", "sad", "cold"]
@@ -297,6 +316,7 @@
         "lastOrdered": "11/10/2019",
         "location": "Washington, USA",
         "warehouse": "Seattle Warehouse",
+        "orderedBy": "Ray Allen",
         "quantity": 3,
         "status": "In Stock",
         "categories": ["walking", "rain", "sad", "cold"]
@@ -308,6 +328,7 @@
         "lastOrdered": "11/10/2019",
         "location": "Washington, USA",
         "warehouse": "Seattle Warehouse",
+        "orderedBy": "Ray Allen",
         "quantity": 3,
         "status": "In Stock",
         "categories": ["walking", "rain", "sad", "cold"]
@@ -318,7 +339,7 @@
     "id": "123-456-984",
     "warehouse": "Portland Warehouse",
     "address": "40 Bay St, Toronto, ON M5J 2X2",
-    "name": "Pascal Siakam",
+    "name": "Damian Lillard",
     "position": "Manager",
     "phone": "(416) 815-5500",
     "email": "p.siakam@the-do.com",
@@ -331,6 +352,7 @@
         "lastOrdered": "11/18/2019",
         "location": "Oregon, USA",
         "warehouse": "Portland Warehouse",
+        "orderedBy": "Damian Lillard",
         "quantity": 1,
         "status": "Out of Stock",
         "categories": ["computers", "big money", "tech life", "lets goo"]
@@ -342,6 +364,7 @@
         "lastOrdered": "11/10/2019",
         "location": "Oregon, USA",
         "warehouse": "Portland Warehouse",
+        "orderedBy": "Damian Lillard",
         "quantity": 3,
         "status": "In Stock",
         "categories": ["computers", "big money", "tech life", "lets goo"]
@@ -353,6 +376,7 @@
         "lastOrdered": "11/10/2019",
         "location": "Oregon, USA",
         "warehouse": "Portland Warehouse",
+        "orderedBy": "Damian Lillard",
         "quantity": 3,
         "status": "In Stock",
         "categories": ["computers", "big money", "tech life", "lets goo"]
@@ -363,7 +387,7 @@
     "id": "123-456-124",
     "warehouse": "Cape Town Warehouse",
     "address": "40 Bay St, Toronto, ON M5J 2X2",
-    "name": "Pascal Siakam",
+    "name": "Steve Nash",
     "position": "Manager",
     "phone": "(416) 815-5500",
     "email": "p.siakam@the-do.com",
@@ -376,6 +400,7 @@
         "lastOrdered": "11/18/2019",
         "location": "Cape Town, SA",
         "warehouse": "Cape Town Warehouse",
+        "orderedBy": "Steve Nash",
         "quantity": 1,
         "status": "Out of Stock",
         "categories": ["gaming", "E3", "COD", "Controller"]
@@ -387,6 +412,7 @@
         "lastOrdered": "11/10/2019",
         "location": "Cape Town, SA",
         "warehouse": "Cape Town Warehouse",
+        "orderedBy": "Steve Nash",
         "quantity": 3,
         "status": "In Stock",
         "categories": ["gaming", "E3", "COD", "Controller"]
@@ -398,6 +424,7 @@
         "lastOrdered": "11/10/2019",
         "location": "Cape Town, SA",
         "warehouse": "Cape Town Warehouse",
+        "orderedBy": "Steve Nash",
         "quantity": 3,
         "status": "In Stock",
         "categories": ["gaming", "E3", "COD", "Controller"]

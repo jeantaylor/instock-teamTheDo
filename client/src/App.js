@@ -5,9 +5,8 @@ import { Switch, Route } from "react-router-dom";
 
 import Header from "./components/header";
 import Inventory from "./components/inventory";
-import Location from "./components/location";
-import ProductHeader from "./components/inventory/ProductHeader";
 import ProductSummary from "./components/inventory/productSummary";
+import Location from "./components/location";
 
 // import TableHeader from "./components/location/locationTableHeader";
 // import TableHeaderInventory from "./components/inventory/InventoryTableHeader";
@@ -15,23 +14,22 @@ import ProductSummary from "./components/inventory/productSummary";
 
 function App() {
   return (
-    <div className='app'>
+    <div className="app">
       <Header />
 
       <Switch>
-        <Route exact path='/inventory' component={Inventory} />
+        <Route exact path="/inventory" component={Inventory} />
         <Route
-          path='/inventory/:ref'
+          path="/inventory/:warehouse/:product"
           render={props => {
             return (
               <>
-                <ProductHeader />
-                <ProductSummary />
+                <ProductSummary {...props} />
               </>
             );
           }}
         />
-        <Route path='/locations' component={Location} />
+        <Route path="/locations" component={Location} />
       </Switch>
     </div>
   );
