@@ -17,17 +17,15 @@ export default class InventoryKbabMenu extends Component {
         }
     }
 
-    deleteProduct = (productRef) => {
-        console.log(this.state.warehouse);
-        console.log(this.state.product);
-        
+    deleteProduct = (productRef) => {        
         const warehouse = this.state.warehouse;
         const product = this.state.product;
+
         axios({
             method: "delete",
             url: ("http://localhost:8080/inventory/" + warehouse + "/" + product)
         }).then(resp => {
-            console.log(resp.data);
+            console.log(resp.data)
         });
     }
 
