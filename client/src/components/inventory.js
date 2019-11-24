@@ -81,10 +81,8 @@ export default class inventory extends Component {
           <div className='inventory__item' key={product.ref}>
             <div className='inventory__group'>
               <h4 className='table__header-headings-map'>ITEM</h4>
-              <Link
-                to={`/inventory/${product.warehouse}/${product.ref}`}
-              >
-                <h2 className="inventory__name">{product.name}</h2>
+              <Link to={`/inventory/${product.warehouse}/${product.ref}`}>
+                <h2 className='inventory__name'>{product.name}</h2>
               </Link>
               <h4 className='inventory__description'>{product.desc}</h4>
             </div>{" "}
@@ -104,7 +102,10 @@ export default class inventory extends Component {
               <h4 className='table__header-headings-map'>STATUS</h4>
               <h4 className='inventory__status'>
                 {product.status}
-                <KbabMenu productRef={product.ref} warehouse={product.warehouse} />
+                <KbabMenu
+                  productRef={product.ref}
+                  warehouse={product.warehouse}
+                />
               </h4>
             </div>
           </div>
@@ -138,13 +139,6 @@ export default class inventory extends Component {
                 placeholder='Item Name'
                 className='popUpForm__input'
               />
-              <h4 className='popUpForm__heading-small'>WAREHOUSE</h4>
-              <input
-                type='text'
-                name='warehouse'
-                placeholder='warehouse'
-                className='popUpForm__input'
-              />
               <h4 className='popUpForm__heading-small'>LAST ORDERED</h4>
               <input
                 type='text'
@@ -152,13 +146,26 @@ export default class inventory extends Component {
                 placeholder='yyyy-mm-dd'
                 className='popUpForm__input'
               />
-              <h4 className='popUpForm__heading-small'>CITY</h4>
-              <input
-                type='text'
-                name='city'
-                placeholder='City'
-                className='popUpForm__input'
-              />
+              <h4 className='popUpForm__heading-small'>WAREHOUSE</h4>
+              <select
+                name='warehouse'
+                placeholder='Item Name'
+                className='popUpForm__input'>
+                <option value='Toronto Warehouse'>Toronto Warehouse</option>
+                <option value='Vancouver Warehouse'>Vancouver Warehouse</option>
+                <option value='New York Warehouse'>New York Warehouse</option>
+                <option value='Nova Scotia Warehouse'>
+                  Nova Scotia Warehouse
+                </option>
+                <option value='Los Angeles Warehouse'>
+                  Los Angeles Warehouse
+                </option>
+                <option value='San Diego Warehouse'>San Diego Warehouse</option>
+                <option value='Seattle Warehouse'>Seattle Warehouse</option>
+                <option value='Portland Warehouse'>Portland Warehouse</option>
+                <option value='Cape Town Warehouse'>Cape Town Warehouse</option>
+              </select>
+
               <h4 className='popUpForm__heading-small'>COUNTRY</h4>
               <input
                 type='text'
@@ -178,11 +185,12 @@ export default class inventory extends Component {
                 type='text'
                 name='description'
                 placeholder='(Optional)'
-                className='popUpForm__input-large'
+                className='popUpForm__input'
               />
-              <button className='popUpForm__button'>SAVE</button>
+              <div>
+                <button className='popUpForm__button'>SAVE</button>
+              </div>
             </form>
-            {/* </div> */}
           </Modal>
         </div>
       </div>

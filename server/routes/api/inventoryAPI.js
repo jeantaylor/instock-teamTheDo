@@ -24,7 +24,7 @@ router.get("/:warehouse/:product", (req, res) => {
     place => place.warehouse === req.params.warehouse
   );
 
-  const warehouseData = foundWarehouse[0]
+  const warehouseData = foundWarehouse[0];
 
   const foundItem = warehouseData.products.filter(
     item => item.ref === req.params.product
@@ -52,7 +52,7 @@ router.put("/", (req, res) => {
       location: req.body.location,
       quantity: req.body.quantity,
       desc: "",
-      categories: ""
+      categories: []
     };
     inventory[warehouseIndex].products.push(newInventory);
     // console.log(inventory);
@@ -66,7 +66,7 @@ router.put("/", (req, res) => {
 
 router.delete("/:warehouse/:product", (req, res) => {
   // const warehouse = req.params.warehouse
-  // const product = req.params.product; 
+  // const product = req.params.product;
   // res.send({
   //   msg: `You are looking for item ${product} in ${warehouse}`
   // })
@@ -80,17 +80,16 @@ router.delete("/:warehouse/:product", (req, res) => {
     let warehouseIndex = inventory.findIndex(
       warehouse => warehouse.warehouse === req.params.warehouse
     );
-    console.log(`This is the warehouse index: ${warehouseIndex}`); 
+    console.log(`This is the warehouse index: ${warehouseIndex}`);
 
-
-    let productIndex = inventory[warehouseIndex].products.findIndex(item => item.ref === req.params.product); 
+    let productIndex = inventory[warehouseIndex].products.findIndex(
+      item => item.ref === req.params.product
+    );
     console.log(`This is the product index: ${productIndex}`);
 
+    inventory[warehouseIndex].products.splice(productIndex, 1);
 
-    inventory[warehouseIndex].products.splice(productIndex, 1); 
-
-
-    console.log(inventory[warehouseIndex].products)
+    console.log(inventory[warehouseIndex].products);
 
     helper.writeJSONFile(inventoryData, inventory);
   } else {
@@ -98,8 +97,7 @@ router.delete("/:warehouse/:product", (req, res) => {
       errorMessage: "Warehouse or item not found"
     });
   }
-
-})
+});
 
 /// HTTP Req Methods
 // Template:
