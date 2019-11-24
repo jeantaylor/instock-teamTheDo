@@ -1,583 +1,445 @@
 [
-    {
-        "id": "123-556-444",
+  {
+    "id": "123-556-444",
+    "warehouse": "Toronto Warehouse",
+    "address": "40 Bay St, Toronto, ON M5J 2X2",
+    "name": "Pascal Siakam",
+    "position": "Manager",
+    "phone": "(416) 815-5500",
+    "email": "p.siakam@the-do.com",
+    "categories": "Athletics, Equipment, Inventory ",
+    "products": [
+      {
+        "ref": "bsWebDevTeam1",
+        "name": " Jet Ski",
+        "desc": "2019 Brand new super-charged jet ski",
+        "lastOrdered": "11/18/2019",
+        "location": "Toronto, CAN",
         "warehouse": "Toronto Warehouse",
-        "address": "40 Bay St, Toronto, ON M5J 2X2",
-        "name": "Pascal Siakam",
-        "position": "Manager",
-        "phone": "(416) 815-5500",
-        "email": "p.siakam@the-do.com",
-        "categories": "Athletics, Equipment, Inventory ",
-        "products": [
-            {
-                "ref": "bsWebDevTeam1",
-                "name": " Jet Ski",
-                "desc": "2019 Brand new super-charged jet ski",
-                "lastOrdered": "11/18/2019",
-                "location": "Toronto, CAN",
-                "warehouse": "Toronto Warehouse",
-                "orderedBy": "Pascal Siakam",
-                "quantity": 1,
-                "status": "In Stock",
-                "categories": [
-                    "water",
-                    "jet",
-                    "ski",
-                    "ocean"
-                ]
-            },
-            {
-                "ref": "bsWebDevTeam22",
-                "name": "Surfboards",
-                "desc": "Brand new Channel Islands 5,4ft short boards",
-                "lastOrdered": "11/10/2019",
-                "location": "Toronto, CAN",
-                "warehouse": "Toronto Warehouse",
-                "orderedBy": "Pascal Siakam",
-                "quantity": 3,
-                "status": "In Stock",
-                "categories": [
-                    "water",
-                    "jet",
-                    "ski",
-                    "ocean"
-                ]
-            },
-            {
-                "ref": "bsWebDevTeam222",
-                "name": "Ocean Kayak",
-                "desc": "Best brand new ocean sturdy kayak",
-                "lastOrdered": "11/10/2019",
-                "location": "Toronto, CAN",
-                "warehouse": "Toronto Warehouse",
-                "orderedBy": "Pascal Siakam",
-                "quantity": 3,
-                "status": "In Stock",
-                "categories": [
-                    "water",
-                    "jet",
-                    "ski",
-                    "ocean"
-                ]
-            }
-        ]
-    },
-    {
-        "id": "123-999-339",
+        "orderedBy": "Pascal Siakam",
+        "quantity": 1,
+        "status": "In Stock",
+        "categories": ["water", "jet", "ski", "ocean"]
+      },
+      {
+        "ref": "bsWebDevTeam22",
+        "name": "Surfboards",
+        "desc": "Brand new Channel Islands 5,4ft short boards",
+        "lastOrdered": "11/10/2019",
+        "location": "Toronto, CAN",
+        "warehouse": "Toronto Warehouse",
+        "orderedBy": "Pascal Siakam",
+        "quantity": 3,
+        "status": "In Stock",
+        "categories": ["water", "jet", "ski", "ocean"]
+      },
+      {
+        "ref": "bsWebDevTeam222",
+        "name": "Ocean Kayak",
+        "desc": "Best brand new ocean sturdy kayak",
+        "lastOrdered": "11/10/2019",
+        "location": "Toronto, CAN",
+        "warehouse": "Toronto Warehouse",
+        "orderedBy": "Pascal Siakam",
+        "quantity": 3,
+        "status": "In Stock",
+        "categories": ["water", "jet", "ski", "ocean"]
+      }
+    ]
+  },
+  {
+    "id": "123-999-339",
+    "warehouse": "Vancouver Warehouse",
+    "address": "40 Bay St, Toronto, ON M5J 2X2",
+    "name": "Mike Bibby",
+    "position": "Manager",
+    "phone": "(416) 815-5500",
+    "email": "p.siakam@the-do.com",
+    "categories": "Athletics, Equipment, Inventory ",
+    "products": [
+      {
+        "ref": "bsWebDevTeam2",
+        "name": "Onesies",
+        "desc": "super soft, cuddly onesies available in all sizes",
+        "lastOrdered": "11/18/2019",
+        "location": "Vancouver, CAN",
         "warehouse": "Vancouver Warehouse",
-        "address": "40 Bay St, Toronto, ON M5J 2X2",
-        "name": "Mike Bibby",
-        "position": "Manager",
-        "phone": "(416) 815-5500",
-        "email": "p.siakam@the-do.com",
-        "categories": "Athletics, Equipment, Inventory ",
-        "products": [
-            {
-                "ref": "bsWebDevTeam2",
-                "name": "Onesies",
-                "desc": "super soft, cuddly onesies available in all sizes",
-                "lastOrdered": "11/18/2019",
-                "location": "Vancouver, CAN",
-                "warehouse": "Vancouver Warehouse",
-                "orderedBy": "Mike Bibby",
-                "quantity": 1,
-                "status": "In Stock",
-                "categories": [
-                    "cotton",
-                    "soft",
-                    "sleep",
-                    "night"
-                ]
-            },
-            {
-                "ref": "bsWebDevTeam100",
-                "name": "Slippers",
-                "desc": "Brand new soft slippers that are perfect for everyone",
-                "lastOrdered": "11/10/2019",
-                "location": "Vancouver, CAN",
-                "warehouse": "Vancouver Warehouse",
-                "orderedBy": "Mike Bibby",
-                "quantity": 3,
-                "status": "In Stock",
-                "categories": [
-                    "cotton",
-                    "soft",
-                    "sleep",
-                    "night"
-                ]
-            },
-            {
-                "ref": "bsWebDevTeam111",
-                "name": "Beanie",
-                "desc": "Super soft beanie for the cold days",
-                "lastOrdered": "11/10/2019",
-                "location": "Vancouver, CAN",
-                "warehouse": "Vancouver Warehouse",
-                "orderedBy": "Mike Bibby",
-                "quantity": 3,
-                "status": "In Stock",
-                "categories": [
-                    "cotton",
-                    "soft",
-                    "sleep",
-                    "night"
-                ]
-            },
-            {
-                "ref": "76bb7930-50d3-4bbe-a62f-f808e380f474",
-                "warehouse": "Vancouver Warehouse",
-                "name": "Pikachu",
-                "lastOrdered": "11/23/2019",
-                "location": "Vancouver, CAN",
-                "quantity": "1",
-                "status": "In Stock",
-                "desc": "A rare, forest-dwelling Pokemon that has a penchant for red-coloured foods like apples and ketchup.",
-                "categories": [
-                    "cute",
-                    "friend"
-                ]
-            }
-        ]
-    },
-    {
-        "id": "123-440-043",
-        "warehouse": "New York Warehouse",
-        "address": "40 Bay St, Toronto, ON M5J 2X2",
-        "name": "Kevin Durant",
-        "position": "Manager",
-        "phone": "(416) 815-5500",
-        "email": "p.siakam@the-do.com",
-        "categories": "Athletics, Equipment, Inventory ",
-        "products": [
-            {
-                "ref": "bsWebDevTeam3",
-                "name": "Rollerblades",
-                "desc": "Fun times are always had on rollerblades",
-                "lastOrdered": "11/18/2019",
-                "location": "New York, USA",
-                "warehouse": "Brooklyn Warehouse",
-                "orderedBy": "Kevin Durant",
-                "quantity": 1,
-                "status": "In Stock",
-                "categories": [
-                    "speed",
-                    "wheels",
-                    "trucks",
-                    "decks"
-                ]
-            },
-            {
-                "ref": "bsWebDevTeam200",
-                "name": "Skateboards",
-                "desc": "Be cooler and ride a cool skateboard",
-                "lastOrdered": "11/10/2019",
-                "location": "New York, USA",
-                "warehouse": "Brooklyn Warehouse",
-                "orderedBy": "Kevin Durant",
-                "quantity": 3,
-                "status": "In Stock",
-                "categories": [
-                    "speed",
-                    "wheels",
-                    "trucks",
-                    "decks"
-                ]
-            },
-            {
-                "ref": "bsWebDevTeam2001",
-                "name": "Bicycles",
-                "desc": "Go anywhere with these dope as bikes",
-                "lastOrdered": "11/10/2019",
-                "location": "New York, USA",
-                "warehouse": "Brooklyn Warehouse",
-                "orderedBy": "Kevin Durant",
-                "quantity": 3,
-                "status": "In Stock",
-                "categories": [
-                    "speed",
-                    "wheels",
-                    "trucks",
-                    "decks"
-                ]
-            }
-        ]
-    },
-    {
-        "id": "123-948-204",
+        "orderedBy": "Mike Bibby",
+        "quantity": 1,
+        "status": "In Stock",
+        "categories": ["cotton", "soft", "sleep", "night"]
+      },
+      {
+        "ref": "bsWebDevTeam100",
+        "name": "Slippers",
+        "desc": "Brand new soft slippers that are perfect for everyone",
+        "lastOrdered": "11/10/2019",
+        "location": "Vancouver, CAN",
+        "warehouse": "Vancouver Warehouse",
+        "orderedBy": "Mike Bibby",
+        "quantity": 3,
+        "status": "In Stock",
+        "categories": ["cotton", "soft", "sleep", "night"]
+      },
+      {
+        "ref": "bsWebDevTeam111",
+        "name": "Beanie",
+        "desc": "Super soft beanie for the cold days",
+        "lastOrdered": "11/10/2019",
+        "location": "Vancouver, CAN",
+        "warehouse": "Vancouver Warehouse",
+        "orderedBy": "Mike Bibby",
+        "quantity": 3,
+        "status": "In Stock",
+        "categories": ["cotton", "soft", "sleep", "night"]
+      },
+      {
+        "ref": "76bb7930-50d3-4bbe-a62f-f808e380f474",
+        "warehouse": "Vancouver Warehouse",
+        "name": "Pikachu",
+        "lastOrdered": "11/23/2019",
+        "location": "Vancouver, CAN",
+        "quantity": "1",
+        "status": "In Stock",
+        "desc": "A rare, forest-dwelling Pokemon that has a penchant for red-coloured foods like apples and ketchup.",
+        "categories": ["cute", "friend"]
+      }
+    ]
+  },
+  {
+    "id": "123-440-043",
+    "warehouse": "New York Warehouse",
+    "address": "40 Bay St, Toronto, ON M5J 2X2",
+    "name": "Kevin Durant",
+    "position": "Manager",
+    "phone": "(416) 815-5500",
+    "email": "p.siakam@the-do.com",
+    "categories": "Athletics, Equipment, Inventory ",
+    "products": [
+      {
+        "ref": "bsWebDevTeam3",
+        "name": "Rollerblades",
+        "desc": "Fun times are always had on rollerblades",
+        "lastOrdered": "11/18/2019",
+        "location": "New York, USA",
+        "warehouse": "Brooklyn Warehouse",
+        "orderedBy": "Kevin Durant",
+        "quantity": 1,
+        "status": "In Stock",
+        "categories": ["speed", "wheels", "trucks", "decks"]
+      },
+      {
+        "ref": "bsWebDevTeam200",
+        "name": "Skateboards",
+        "desc": "Be cooler and ride a cool skateboard",
+        "lastOrdered": "11/10/2019",
+        "location": "New York, USA",
+        "warehouse": "Brooklyn Warehouse",
+        "orderedBy": "Kevin Durant",
+        "quantity": 3,
+        "status": "In Stock",
+        "categories": ["speed", "wheels", "trucks", "decks"]
+      },
+      {
+        "ref": "bsWebDevTeam2001",
+        "name": "Bicycles",
+        "desc": "Go anywhere with these dope as bikes",
+        "lastOrdered": "11/10/2019",
+        "location": "New York, USA",
+        "warehouse": "Brooklyn Warehouse",
+        "orderedBy": "Kevin Durant",
+        "quantity": 3,
+        "status": "In Stock",
+        "categories": ["speed", "wheels", "trucks", "decks"]
+      }
+    ]
+  },
+  {
+    "id": "123-948-204",
+    "warehouse": "Nova Scotia Warehouse",
+    "address": "40 Bay St, Toronto, ON M5J 2X2",
+    "name": "Kyle Lowry",
+    "position": "Manager",
+    "phone": "(416) 815-5500",
+    "email": "p.siakam@the-do.com",
+    "categories": "Athletics, Equipment, Inventory ",
+    "products": [
+      {
+        "ref": "bsWebDevTeam4",
+        "name": "Snowboards",
+        "desc": "The ultimate brand new snowboard to shred the slopes",
+        "lastOrdered": "11/18/2019",
+        "location": "Nova Scotia, CAN",
         "warehouse": "Nova Scotia Warehouse",
-        "address": "40 Bay St, Toronto, ON M5J 2X2",
-        "name": "Kyle Lowry",
-        "position": "Manager",
-        "phone": "(416) 815-5500",
-        "email": "p.siakam@the-do.com",
-        "categories": "Athletics, Equipment, Inventory ",
-        "products": [
-            {
-                "ref": "bsWebDevTeam4",
-                "name": "Snowboards",
-                "desc": "The ultimate brand new snowboard to shred the slopes",
-                "lastOrdered": "11/18/2019",
-                "location": "Nova Scotia, CAN",
-                "warehouse": "Nova Scotia Warehouse",
-                "orderedBy": "Kyle Lowry",
-                "quantity": 1,
-                "status": "In Stock",
-                "categories": [
-                    "snow",
-                    "mountains",
-                    "skiis",
-                    "boards"
-                ]
-            },
-            {
-                "ref": "bsWebDevTeam300",
-                "name": "Snow Skis",
-                "desc": "slide down the slopes with these skiis",
-                "lastOrdered": "11/10/2019",
-                "location": "Nova Scotia, CAN",
-                "warehouse": "Nova Scotia Warehouse",
-                "orderedBy": "Kyle Lowry",
-                "quantity": 3,
-                "status": "In Stock",
-                "categories": [
-                    "snow",
-                    "mountains",
-                    "skiis",
-                    "boards"
-                ]
-            },
-            {
-                "ref": "bsWebDevTeam303",
-                "name": "Sleds",
-                "desc": "Feel like a kid again going down hills and stuff",
-                "lastOrdered": "11/10/2019",
-                "location": "Nova Scotia, CAN",
-                "warehouse": "Nova Scotia Warehouse",
-                "orderedBy": "Kyle Lowry",
-                "quantity": 3,
-                "status": "In Stock",
-                "categories": [
-                    "snow",
-                    "mountains",
-                    "skiis",
-                    "boards"
-                ]
-            }
-        ]
-    },
-    {
-        "id": "123-036-794",
+        "orderedBy": "Kyle Lowry",
+        "quantity": 1,
+        "status": "In Stock",
+        "categories": ["snow", "mountains", "skiis", "boards"]
+      },
+      {
+        "ref": "bsWebDevTeam300",
+        "name": "Snow Skis",
+        "desc": "slide down the slopes with these skiis",
+        "lastOrdered": "11/10/2019",
+        "location": "Nova Scotia, CAN",
+        "warehouse": "Nova Scotia Warehouse",
+        "orderedBy": "Kyle Lowry",
+        "quantity": 3,
+        "status": "In Stock",
+        "categories": ["snow", "mountains", "skiis", "boards"]
+      },
+      {
+        "ref": "bsWebDevTeam303",
+        "name": "Sleds",
+        "desc": "Feel like a kid again going down hills and stuff",
+        "lastOrdered": "11/10/2019",
+        "location": "Nova Scotia, CAN",
+        "warehouse": "Nova Scotia Warehouse",
+        "orderedBy": "Kyle Lowry",
+        "quantity": 3,
+        "status": "In Stock",
+        "categories": ["snow", "mountains", "skiis", "boards"]
+      }
+    ]
+  },
+  {
+    "id": "123-036-794",
+    "warehouse": "Los Angeles Warehouse",
+    "address": "40 Bay St, Toronto, ON M5J 2X2",
+    "name": "Kawhi Leonard",
+    "position": "Manager",
+    "phone": "(416) 815-5500",
+    "email": "p.siakam@the-do.com",
+    "categories": "Athletics, Equipment, Inventory ",
+    "products": [
+      {
+        "ref": "bsWebDevTeam5",
+        "name": "Sharpies",
+        "desc": "All sizes come and get your permanent markers called Sharpies",
+        "lastOrdered": "11/18/2019",
+        "location": "California, USA",
         "warehouse": "Los Angeles Warehouse",
-        "address": "40 Bay St, Toronto, ON M5J 2X2",
-        "name": "Kawhi Leonard",
-        "position": "Manager",
-        "phone": "(416) 815-5500",
-        "email": "p.siakam@the-do.com",
-        "categories": "Athletics, Equipment, Inventory ",
-        "products": [
-            {
-                "ref": "bsWebDevTeam5",
-                "name": "Sharpies",
-                "desc": "All sizes come and get your permanent markers called Sharpies",
-                "lastOrdered": "11/18/2019",
-                "location": "California, USA",
-                "warehouse": "Los Angeles Warehouse",
-                "orderedBy": "Kawhi Leonard",
-                "quantity": 1,
-                "status": "In Stock",
-                "categories": [
-                    "supplies",
-                    "paper",
-                    "office",
-                    "work"
-                ]
-            },
-            {
-                "ref": "bsWebDevTeam400",
-                "name": "Paper",
-                "desc": "The best most eco-friendly paper around",
-                "lastOrdered": "11/10/2019",
-                "location": "California, USA",
-                "warehouse": "Los Angeles Warehouse",
-                "orderedBy": "Kawhi Leonard",
-                "quantity": 3,
-                "status": "In Stock",
-                "categories": [
-                    "supplies",
-                    "paper",
-                    "office",
-                    "work"
-                ]
-            },
-            {
-                "ref": "bsWebDevTeam404",
-                "name": "Mahogany desk",
-                "desc": "Most sturdy desk in the market, come get yours today",
-                "lastOrdered": "11/10/2019",
-                "location": "California, USA",
-                "warehouse": "Los Angeles Warehouse",
-                "orderedBy": "Kawhi Leonard",
-                "quantity": 3,
-                "status": "In Stock",
-                "categories": [
-                    "supplies",
-                    "paper",
-                    "office",
-                    "work"
-                ]
-            }
-        ]
-    },
-    {
-        "id": "123-036-794",
+        "orderedBy": "Kawhi Leonard",
+        "quantity": 1,
+        "status": "In Stock",
+        "categories": ["supplies", "paper", "office", "work"]
+      },
+      {
+        "ref": "bsWebDevTeam400",
+        "name": "Paper",
+        "desc": "The best most eco-friendly paper around",
+        "lastOrdered": "11/10/2019",
+        "location": "California, USA",
+        "warehouse": "Los Angeles Warehouse",
+        "orderedBy": "Kawhi Leonard",
+        "quantity": 3,
+        "status": "In Stock",
+        "categories": ["supplies", "paper", "office", "work"]
+      },
+      {
+        "ref": "bsWebDevTeam404",
+        "name": "Mahogany desk",
+        "desc": "Most sturdy desk in the market, come get yours today",
+        "lastOrdered": "11/10/2019",
+        "location": "California, USA",
+        "warehouse": "Los Angeles Warehouse",
+        "orderedBy": "Kawhi Leonard",
+        "quantity": 3,
+        "status": "In Stock",
+        "categories": ["supplies", "paper", "office", "work"]
+      }
+    ]
+  },
+  {
+    "id": "123-036-794",
+    "warehouse": "San Diego Warehouse",
+    "address": "40 Bay St, Toronto, ON M5J 2X2",
+    "name": "Lebron James",
+    "position": "Manager",
+    "phone": "(416) 815-5500",
+    "email": "p.siakam@the-do.com",
+    "categories": "Athletics, Equipment, Inventory ",
+    "products": [
+      {
+        "ref": "bsWebDevTeam6",
+        "name": "Weed Eater",
+        "desc": "Brand new top notch weed eater for all your needs",
+        "lastOrdered": "11/18/2019",
+        "location": "California, USA",
         "warehouse": "San Diego Warehouse",
-        "address": "40 Bay St, Toronto, ON M5J 2X2",
-        "name": "Lebron James",
-        "position": "Manager",
-        "phone": "(416) 815-5500",
-        "email": "p.siakam@the-do.com",
-        "categories": "Athletics, Equipment, Inventory ",
-        "products": [
-            {
-                "ref": "bsWebDevTeam6",
-                "name": "Weed Eater",
-                "desc": "Brand new top notch weed eater for all your needs",
-                "lastOrdered": "11/18/2019",
-                "location": "California, USA",
-                "warehouse": "San Diego Warehouse",
-                "orderedBy": "Lebron James",
-                "quantity": 1,
-                "status": "Out of Stock",
-                "categories": [
-                    "yard",
-                    "house",
-                    "tools",
-                    "field"
-                ]
-            },
-            {
-                "ref": "bsWebDevTeam777",
-                "name": "Lawnmower",
-                "desc": "The most powerful best lawnmower on the market",
-                "lastOrdered": "11/10/2019",
-                "location": "California, USA",
-                "warehouse": "San Diego Warehouse",
-                "orderedBy": "Lebron James",
-                "quantity": 3,
-                "status": "In Stock",
-                "categories": [
-                    "yard",
-                    "house",
-                    "tools",
-                    "field"
-                ]
-            },
-            {
-                "ref": "bsWebDevTeam888",
-                "name": "Sprinklers",
-                "desc": "For the wettest yards use these sprinklers",
-                "lastOrdered": "11/10/2019",
-                "location": "California, USA",
-                "warehouse": "San Diego Warehouse",
-                "orderedBy": "Lebron James",
-                "quantity": 3,
-                "status": "In Stock",
-                "categories": [
-                    "yard",
-                    "house",
-                    "tools",
-                    "field"
-                ]
-            }
-        ]
-    },
-    {
-        "id": "123-980-789",
+        "orderedBy": "Lebron James",
+        "quantity": 1,
+        "status": "Out of Stock",
+        "categories": ["yard", "house", "tools", "field"]
+      },
+      {
+        "ref": "bsWebDevTeam777",
+        "name": "Lawnmower",
+        "desc": "The most powerful best lawnmower on the market",
+        "lastOrdered": "11/10/2019",
+        "location": "California, USA",
+        "warehouse": "San Diego Warehouse",
+        "orderedBy": "Lebron James",
+        "quantity": 3,
+        "status": "In Stock",
+        "categories": ["yard", "house", "tools", "field"]
+      },
+      {
+        "ref": "bsWebDevTeam888",
+        "name": "Sprinklers",
+        "desc": "For the wettest yards use these sprinklers",
+        "lastOrdered": "11/10/2019",
+        "location": "California, USA",
+        "warehouse": "San Diego Warehouse",
+        "orderedBy": "Lebron James",
+        "quantity": 3,
+        "status": "In Stock",
+        "categories": ["yard", "house", "tools", "field"]
+      }
+    ]
+  },
+  {
+    "id": "123-980-789",
+    "warehouse": "Seattle Warehouse",
+    "address": "40 Bay St, Toronto, ON M5J 2X2",
+    "name": "Ray Allen",
+    "position": "Manager",
+    "phone": "(416) 815-5500",
+    "email": "p.siakam@the-do.com",
+    "categories": "Athletics, Equipment, Inventory ",
+    "products": [
+      {
+        "ref": "bsWebDevTeam7",
+        "name": "Umbrellas",
+        "desc": "To keep out of the rain and the sprinklers from before use these",
+        "lastOrdered": "11/18/2019",
+        "location": "Washington, USA",
         "warehouse": "Seattle Warehouse",
-        "address": "40 Bay St, Toronto, ON M5J 2X2",
-        "name": "Ray Allen",
-        "position": "Manager",
-        "phone": "(416) 815-5500",
-        "email": "p.siakam@the-do.com",
-        "categories": "Athletics, Equipment, Inventory ",
-        "products": [
-            {
-                "ref": "bsWebDevTeam7",
-                "name": "Umbrellas",
-                "desc": "To keep out of the rain and the sprinklers from before use these",
-                "lastOrdered": "11/18/2019",
-                "location": "Washington, USA",
-                "warehouse": "Seattle Warehouse",
-                "orderedBy": "Ray Allen",
-                "quantity": 1,
-                "status": "Out of Stock",
-                "categories": [
-                    "walking",
-                    "rain",
-                    "sad",
-                    "cold"
-                ]
-            },
-            {
-                "ref": "bsWebDevTeam500",
-                "name": "Rain boots",
-                "desc": "To keep  your feet nice and dry use these",
-                "lastOrdered": "11/10/2019",
-                "location": "Washington, USA",
-                "warehouse": "Seattle Warehouse",
-                "orderedBy": "Ray Allen",
-                "quantity": 3,
-                "status": "In Stock",
-                "categories": [
-                    "walking",
-                    "rain",
-                    "sad",
-                    "cold"
-                ]
-            },
-            {
-                "ref": "bsWebDevTeam909",
-                "name": "Trench coat",
-                "desc": "To keep yourself dry use this coat made for wet days",
-                "lastOrdered": "11/10/2019",
-                "location": "Washington, USA",
-                "warehouse": "Seattle Warehouse",
-                "orderedBy": "Ray Allen",
-                "quantity": 3,
-                "status": "In Stock",
-                "categories": [
-                    "walking",
-                    "rain",
-                    "sad",
-                    "cold"
-                ]
-            }
-        ]
-    },
-    {
-        "id": "123-456-984",
+        "orderedBy": "Ray Allen",
+        "quantity": 1,
+        "status": "Out of Stock",
+        "categories": ["walking", "rain", "sad", "cold"]
+      },
+      {
+        "ref": "bsWebDevTeam500",
+        "name": "Rain boots",
+        "desc": "To keep  your feet nice and dry use these",
+        "lastOrdered": "11/10/2019",
+        "location": "Washington, USA",
+        "warehouse": "Seattle Warehouse",
+        "orderedBy": "Ray Allen",
+        "quantity": 3,
+        "status": "In Stock",
+        "categories": ["walking", "rain", "sad", "cold"]
+      },
+      {
+        "ref": "bsWebDevTeam909",
+        "name": "Trench coat",
+        "desc": "To keep yourself dry use this coat made for wet days",
+        "lastOrdered": "11/10/2019",
+        "location": "Washington, USA",
+        "warehouse": "Seattle Warehouse",
+        "orderedBy": "Ray Allen",
+        "quantity": 3,
+        "status": "In Stock",
+        "categories": ["walking", "rain", "sad", "cold"]
+      }
+    ]
+  },
+  {
+    "id": "123-456-984",
+    "warehouse": "Portland Warehouse",
+    "address": "40 Bay St, Toronto, ON M5J 2X2",
+    "name": "Damian Lillard",
+    "position": "Manager",
+    "phone": "(416) 815-5500",
+    "email": "p.siakam@the-do.com",
+    "categories": "Athletics, Equipment, Inventory ",
+    "products": [
+      {
+        "ref": "bsWebDevTeam8",
+        "name": "Apple Mac",
+        "desc": "The top dog of all",
+        "lastOrdered": "11/18/2019",
+        "location": "Oregon, USA",
         "warehouse": "Portland Warehouse",
-        "address": "40 Bay St, Toronto, ON M5J 2X2",
-        "name": "Damian Lillard",
-        "position": "Manager",
-        "phone": "(416) 815-5500",
-        "email": "p.siakam@the-do.com",
-        "categories": "Athletics, Equipment, Inventory ",
-        "products": [
-            {
-                "ref": "bsWebDevTeam8",
-                "name": "Apple Mac",
-                "desc": "The top dog of all",
-                "lastOrdered": "11/18/2019",
-                "location": "Oregon, USA",
-                "warehouse": "Portland Warehouse",
-                "orderedBy": "Damian Lillard",
-                "quantity": 1,
-                "status": "Out of Stock",
-                "categories": [
-                    "computers",
-                    "big money",
-                    "tech life",
-                    "lets goo"
-                ]
-            },
-            {
-                "ref": "bsWebDevTeam990",
-                "name": "Linux",
-                "desc": "Could maybe be second",
-                "lastOrdered": "11/10/2019",
-                "location": "Oregon, USA",
-                "warehouse": "Portland Warehouse",
-                "orderedBy": "Damian Lillard",
-                "quantity": 3,
-                "status": "In Stock",
-                "categories": [
-                    "computers",
-                    "big money",
-                    "tech life",
-                    "lets goo"
-                ]
-            },
-            {
-                "ref": "bsWebDevTeam800",
-                "name": "Microsoft Surface",
-                "desc": "Then we get here and that is all haha",
-                "lastOrdered": "11/10/2019",
-                "location": "Oregon, USA",
-                "warehouse": "Portland Warehouse",
-                "orderedBy": "Damian Lillard",
-                "quantity": 3,
-                "status": "In Stock",
-                "categories": [
-                    "computers",
-                    "big money",
-                    "tech life",
-                    "lets goo"
-                ]
-            }
-        ]
-    },
-    {
-        "id": "123-456-124",
+        "orderedBy": "Damian Lillard",
+        "quantity": 1,
+        "status": "Out of Stock",
+        "categories": ["computers", "big money", "tech life", "lets goo"]
+      },
+      {
+        "ref": "bsWebDevTeam990",
+        "name": "Linux",
+        "desc": "Could maybe be second",
+        "lastOrdered": "11/10/2019",
+        "location": "Oregon, USA",
+        "warehouse": "Portland Warehouse",
+        "orderedBy": "Damian Lillard",
+        "quantity": 3,
+        "status": "In Stock",
+        "categories": ["computers", "big money", "tech life", "lets goo"]
+      },
+      {
+        "ref": "bsWebDevTeam800",
+        "name": "Microsoft Surface",
+        "desc": "Then we get here and that is all haha",
+        "lastOrdered": "11/10/2019",
+        "location": "Oregon, USA",
+        "warehouse": "Portland Warehouse",
+        "orderedBy": "Damian Lillard",
+        "quantity": 3,
+        "status": "In Stock",
+        "categories": ["computers", "big money", "tech life", "lets goo"]
+      }
+    ]
+  },
+  {
+    "id": "123-456-124",
+    "warehouse": "Cape Town Warehouse",
+    "address": "40 Bay St, Toronto, ON M5J 2X2",
+    "name": "Steve Nash",
+    "position": "Manager",
+    "phone": "(416) 815-5500",
+    "email": "p.siakam@the-do.com",
+    "categories": "Athletics, Equipment, Inventory ",
+    "products": [
+      {
+        "ref": "bsWebDevTeam9",
+        "name": "Playstation",
+        "desc": "The best in the game no doubt",
+        "lastOrdered": "11/18/2019",
+        "location": "Cape Town, SA",
         "warehouse": "Cape Town Warehouse",
-        "address": "40 Bay St, Toronto, ON M5J 2X2",
-        "name": "Steve Nash",
-        "position": "Manager",
-        "phone": "(416) 815-5500",
-        "email": "p.siakam@the-do.com",
-        "categories": "Athletics, Equipment, Inventory ",
-        "products": [
-            {
-                "ref": "bsWebDevTeam9",
-                "name": "Playstation",
-                "desc": "The best in the game no doubt",
-                "lastOrdered": "11/18/2019",
-                "location": "Cape Town, SA",
-                "warehouse": "Cape Town Warehouse",
-                "orderedBy": "Steve Nash",
-                "quantity": 1,
-                "status": "Out of Stock",
-                "categories": [
-                    "gaming",
-                    "E3",
-                    "COD",
-                    "Controller"
-                ]
-            },
-            {
-                "ref": "bsWebDevTeam505",
-                "name": "Xbox",
-                "desc": "Third for sure no question",
-                "lastOrdered": "11/10/2019",
-                "location": "Cape Town, SA",
-                "warehouse": "Cape Town Warehouse",
-                "orderedBy": "Steve Nash",
-                "quantity": 3,
-                "status": "In Stock",
-                "categories": [
-                    "gaming",
-                    "E3",
-                    "COD",
-                    "Controller"
-                ]
-            },
-            {
-                "ref": "bsWebDevTeam606",
-                "name": "PC",
-                "desc": "For the die hards",
-                "lastOrdered": "11/10/2019",
-                "location": "Cape Town, SA",
-                "warehouse": "Cape Town Warehouse",
-                "orderedBy": "Steve Nash",
-                "quantity": 3,
-                "status": "In Stock",
-                "categories": [
-                    "gaming",
-                    "E3",
-                    "COD",
-                    "Controller"
-                ]
-            }
-        ]
-    }
+        "orderedBy": "Steve Nash",
+        "quantity": 1,
+        "status": "Out of Stock",
+        "categories": ["gaming", "E3", "COD", "Controller"]
+      },
+      {
+        "ref": "bsWebDevTeam505",
+        "name": "Xbox",
+        "desc": "Third for sure no question",
+        "lastOrdered": "11/10/2019",
+        "location": "Cape Town, SA",
+        "warehouse": "Cape Town Warehouse",
+        "orderedBy": "Steve Nash",
+        "quantity": 3,
+        "status": "In Stock",
+        "categories": ["gaming", "E3", "COD", "Controller"]
+      },
+      {
+        "ref": "bsWebDevTeam606",
+        "name": "PC",
+        "desc": "For the die hards",
+        "lastOrdered": "11/10/2019",
+        "location": "Cape Town, SA",
+        "warehouse": "Cape Town Warehouse",
+        "orderedBy": "Steve Nash",
+        "quantity": 3,
+        "status": "In Stock",
+        "categories": ["gaming", "E3", "COD", "Controller"]
+      }
+    ]
+  }
 ]
