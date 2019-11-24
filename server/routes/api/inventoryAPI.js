@@ -64,11 +64,41 @@ router.put("/", (req, res) => {
   }
 });
 
-router.delete("/:ref", (req, res) => {
-  const lookup = req.params.ref
-  res.send({
-    msg: `You are looking for: ${lookup}`
-  })
+router.delete("/:warehouse/:product", (req, res) => {
+  // const warehouse = req.params.warehouse
+  // const product = req.params.product; 
+  // res.send({
+  //   msg: `You are looking for item ${product} in ${warehouse}`
+  // })
+  const found = inventory.some(
+    warehouse => warehouse.warehouse === req.params.warehouse
+  );
+
+  console.log(`Warehouse was found? ${found}`);
+
+  if (found) {
+    let warehouseIndex = inventory.findIndex(
+      warehouse => warehouse.warehouse === req.params.warehouse
+    );
+    console.log(`This is the warehouse index: ${warehouseIndex}`); 
+
+
+    let productIndex = inventory[warehouseIndex].products.findIndex(item => item.ref === req.params.product); 
+    console.log(`This is the product index: ${productIndex}`);
+
+
+    inventory[warehouseIndex].products.splice(productIndex, 1); 
+
+
+    console.log(inventory[warehouseIndex].products)
+
+    helper.writeJSONFile(inventoryData, inventory);
+  } else {
+    res.status(400).json({
+      errorMessage: "Warehouse or item not found"
+    });
+  }
+
 })
 
 /// HTTP Req Methods

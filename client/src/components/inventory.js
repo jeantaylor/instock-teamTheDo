@@ -104,7 +104,7 @@ export default class inventory extends Component {
               <h4 className='table__header-headings-map'>STATUS</h4>
               <h4 className='inventory__status'>
                 {product.status}
-                <KbabMenu productRef={product.ref} />
+                <KbabMenu productRef={product.ref} warehouse={product.warehouse} />
               </h4>
             </div>
           </div>

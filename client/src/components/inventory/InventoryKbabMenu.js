@@ -5,7 +5,8 @@ import kbab from "../../assets/Icons/SVG/Icon-kebab-default.svg";
 export default class InventoryKbabMenu extends Component {
     state = {
         activeBtn: false,
-        productRef: this.props.productRef,
+        product: this.props.productRef,
+        warehouse: this.props.warehouse, 
     }
 
     btnToggle = () => {
@@ -17,11 +18,14 @@ export default class InventoryKbabMenu extends Component {
     }
 
     deleteProduct = (productRef) => {
-        console.log(this.state.productRef);
-        const lookup = this.state.productRef;
+        console.log(this.state.warehouse);
+        console.log(this.state.product);
+        
+        const warehouse = this.state.warehouse;
+        const product = this.state.product;
         axios({
             method: "delete",
-            url: ("http://localhost:8080/inventory/" + lookup)
+            url: ("http://localhost:8080/inventory/" + warehouse + "/" + product)
         }).then(resp => {
             console.log(resp.data);
         });
