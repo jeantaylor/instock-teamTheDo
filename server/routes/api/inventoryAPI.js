@@ -64,8 +64,11 @@ router.put("/", (req, res) => {
   }
 });
 
-router.delete("/", (req, res) => {
-  
+router.delete("/:ref", (req, res) => {
+  const lookup = req.params.ref
+  res.send({
+    msg: `You are looking for: ${lookup}`
+  })
 })
 
 /// HTTP Req Methods

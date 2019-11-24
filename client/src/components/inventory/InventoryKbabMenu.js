@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import axios from "axios"; 
+import axios from "axios";
 import kbab from "../../assets/Icons/SVG/Icon-kebab-default.svg";
 
 export default class InventoryKbabMenu extends Component {
     state = {
         activeBtn: false,
-        productRef: this.props.productRef, 
+        productRef: this.props.productRef,
     }
 
     btnToggle = () => {
@@ -17,11 +17,14 @@ export default class InventoryKbabMenu extends Component {
     }
 
     deleteProduct = (productRef) => {
-        console.log(this.state.productRef); 
-        axios.delete(`http://localhost:8080/inventory`) 
-            .then(res => {
-                console.log("Item removed.")
-            })
+        console.log(this.state.productRef);
+        const lookup = this.state.productRef;
+        axios({
+            method: "delete",
+            url: ("http://localhost:8080/inventory/" + lookup)
+        }).then(resp => {
+            console.log(resp.data);
+        });
     }
 
     render() {
@@ -39,7 +42,7 @@ export default class InventoryKbabMenu extends Component {
                         <button
                             className="kbabMenu__action"
                             id={this.props.productRef}
-                            onClick= {this.deleteProduct}
+                            onClick={this.deleteProduct}
                         >
                             Remove
                         </button>
