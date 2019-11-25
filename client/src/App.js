@@ -6,6 +6,7 @@ import { Switch, Route } from "react-router-dom";
 import Header from "./components/header";
 import Inventory from "./components/inventory";
 import ProductSummary from "./components/inventory/productSummary";
+import EditProduct from "./components/inventory/editProduct"; 
 import Location from "./components/location";
 
 // import TableHeader from "./components/location/locationTableHeader";
@@ -29,6 +30,7 @@ function App() {
             );
           }}
         />
+        <Route path="/edit/:warehouse/:product" component={EditProduct} />
         <Route path="/locations" component={Location} />
       </Switch>
     </div>
