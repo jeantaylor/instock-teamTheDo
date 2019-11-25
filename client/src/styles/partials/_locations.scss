@@ -25,6 +25,7 @@
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      width: 100%;
     }
     &__name {
       font-weight: bold;
@@ -40,9 +41,7 @@
   .locations {
     &__heading {
     }
-
     &__item {
-      width: 100%;
     }
   }
 }
