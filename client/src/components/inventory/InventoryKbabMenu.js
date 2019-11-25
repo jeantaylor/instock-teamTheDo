@@ -26,6 +26,7 @@ export default class InventoryKbabMenu extends Component {
             url: ("http://localhost:8080/inventory/" + warehouse + "/" + product)
         }).then(resp => {
             console.log(resp.data)
+            window.location.reload(true); 
         });
     }
 

@@ -7,7 +7,6 @@ const uuid = require('uuid');
 const app = express();
 
 // / Initialize Files, File Data
-// Template:
 const inventoryData = `${__dirname}` + '/model/inventory.json';
 let inventory = require(inventoryData);
 
@@ -66,23 +65,16 @@ router.delete('/:warehouse/:product', (req, res) => {
 
 		inventory[warehouseIndex].products.splice(productIndex, 1);
 
-		console.log(inventory[warehouseIndex].products);
+		helper.writeJSONFile(inventoryData, inventory);
 
-    helper.writeJSONFile(inventoryData, inventory);
-    
-    res.status(200).send({
-      msg: "Deletion successful."
-    })
+		res.status(200).send({
+			msg: 'Deletion successful.'
+		});
 	} else {
 		res.status(400).json({
 			errorMessage: 'Warehouse or item not found'
 		});
 	}
 });
-
-/// HTTP Req Methods
-// Template:
-// router.get("/", (req, res) => {
-// });
 
 module.exports = router;
