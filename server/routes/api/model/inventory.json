@@ -99,10 +99,12 @@
         "name": "Pikachu",
         "lastOrdered": "11/23/2019",
         "location": "Vancouver, CAN",
+        "warehouse": "Vancouver Warehouse",
+        "orderedBy": "Prof. Oak",
         "quantity": "1",
         "status": "In Stock",
         "desc": "A rare, forest-dwelling Pokemon that has a penchant for red-coloured foods like apples and ketchup.",
-        "categories": ["cute", "friend"]
+        "categories": ["cute, friend"]
       }
     ]
   },
