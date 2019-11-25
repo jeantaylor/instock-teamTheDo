@@ -1,0 +1,15 @@
+.editProduct {
+    margin: 0; 
+}
+
+@include medium {
+    .editProduct {
+        margin: 0; 
+    }
+}
+
+@include large {
+    .editProduct {
+        margin: 0; 
+    }
+}

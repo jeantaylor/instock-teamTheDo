@@ -113,9 +113,11 @@ export default class ProductSummary extends Component {
           </div>
         </div>
         <div className="product__button__wrapper">
-          <button className="product__button__edit">
-            <h4>EDIT</h4>
-          </button>
+          <Link to={`/edit/${this.state.products.warehouse}/${this.state.products.ref}`}>
+            <button className="product__button__edit">
+              <h4>EDIT</h4>
+            </button>
+          </Link>
         </div>
       </>
     );
