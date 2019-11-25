@@ -8,6 +8,9 @@
   }
   &__name {
     font-weight: bold;
+    &:hover {
+      opacity: 75%;
+    }
   }
 }
 
