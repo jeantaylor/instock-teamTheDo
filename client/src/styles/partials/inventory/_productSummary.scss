@@ -6,29 +6,67 @@
     display: flex;
     flex-direction: row;
     align-items: baseline;
+    margin-top: 32px;
   }
   &__icon {
     padding-right: 24px;
   }
   &__title {
+    margin: unset;
+    padding-bottom: 24px;
     font-size: 24px;
   }
   &__button {
-    display: none;
+    //display: none;
     background: $instock-green;
     color: $white;
     border: none;
     border-radius: 4px;
     height: 32px;
-    width: 88px;
+    width: 96px;
     &-oos {
-      //display:none;
+      display: none;
       background: $mercury;
+      font-family: "AvenirDemiBold";
       color: black;
       border: none;
       border-radius: 4px;
       height: 32px;
-      width: 88px;
+      width: 96px;
+    }
+  }
+}
+.product {
+  &__summary h4 {
+    margin: unset;
+  }
+  &__summary {
+    margin: 32px 5%;
+  }
+  &__headings {
+    color: $silver;
+    padding-bottom: 16px;
+  }
+  &__container {
+    margin-bottom: 24px;
+    &__description {
+      margin-bottom: 32px;
+    }
+  }
+  &__button {
+    &__wrapper {
+      margin: 0 5% 24px;
+    }
+    &__edit {
+      width: 288px;
+      color: white;
+      background: $instock-blue;
+      height: 56px;
+      border: none;
+      border-radius: 4px;
+      &:hover {
+        background: $instock-drkblue;
+      }
     }
   }
 }
@@ -39,15 +77,57 @@
 
     &__wrapper {
       display: flex;
+      //flex-direction: row;
       align-items: center;
       border-bottom: 1px solid $mercury;
     }
     &__title {
       padding-right: 24px;
+      padding-bottom: 40px;
       font-size: 36px;
+      &__wrapper {
+        margin-top: 48px;
+      }
     }
     &__button {
       height: 24px;
+      width: 88px;
+    }
+  }
+  .product {
+    &__summary {
+      margin-left: 3.13%;
+      margin-right: 3.13%;
+    }
+    &__container {
+      width: 50%;
+      margin-bottom: 56px;
+      &:nth-child(4) {
+        margin-bottom: 48px;
+      }
+      &__dual {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+      &__description {
+        margin-bottom: 56px;
+      }
+    }
+    &__wrapper {
+      border-bottom: 1px solid $mercury;
+      margin-bottom: 40px;
+    }
+    &__button {
+      &__wrapper {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0 3.13% 24px;
+      }
+      &__edit {
+        width: 160px;
+        height: 48px;
+      }
     }
   }
 }
@@ -55,5 +135,29 @@
 @include large {
   .product__header {
     margin: 0 12.5%;
+  }
+  .product {
+    &__summary {
+      margin-left: 12.5%;
+      margin-right: 12.5%;
+      display: flex;
+      margin-bottom: 48px;
+      border-bottom: 1px solid $mercury;
+    }
+    &__container {
+      &__description {
+        width: 50%;
+        margin-bottom: 0;
+      }
+    }
+    &__wrapper {
+      width: 50%;
+      border-bottom: none;
+      margin-bottom: 0;
+    }
+    &__button__wrapper {
+      margin-left: 12.5%;
+      margin-right: 12.5%;
+    }
   }
 }

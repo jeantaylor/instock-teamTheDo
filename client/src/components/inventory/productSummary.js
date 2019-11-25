@@ -7,14 +7,18 @@ export default class ProductSummary extends Component {
   state = {
     products: {}
   };
+  // function oos{
+  //   if ({this.state.products.quantity}=0){
 
+  //   }
+  // }
   componentDidMount() {
     axios
       .get(
         `http://localhost:8080/inventory/${this.props.match.params.warehouse}/${this.props.match.params.product}`
       )
       .then(res => {
-        console.log(res.data);
+        //console.log(res.data);
         this.setState({
           products: res.data
         });
@@ -44,47 +48,53 @@ export default class ProductSummary extends Component {
           </div>
         </div>
         <div className="product__summary">
-          <div className="product__container">
-            <h4 className="product__summary-headings">ITEM DESCRIPTION</h4>
-            <h4 className="inventory__name">{this.state.products.desc}</h4>
+          <div className="product__container__description">
+            <h4 className="product__headings">ITEM DESCRIPTION</h4>
+            <h4 className="product__name">{this.state.products.desc}</h4>
           </div>
-          <div className="product__summary__wrapper">
-            <div className="product__container">
-              <h4 className="product__summary-headings">ORDERED BY</h4>
-              <h4 className="inventory__name">
-                {this.state.products.orderedBy}
-              </h4>
+          <div className="product__wrapper">
+            <div className="product__container__dual">
+              <div className="product__container">
+                <h4 className="product__headings">ORDERED BY</h4>
+                <h4 className="product__data">
+                  {this.state.products.orderedBy}
+                </h4>
+              </div>
+              <div className="product__container">
+                <h4 className="product__headings">REFERENCE NUMBER </h4>
+                <h4 className="product__data">{this.state.products.ref}</h4>
+              </div>
+            </div>
+            <div className="product__container__dual">
+              <div className="product__container">
+                <h4 className="product__headings">LAST ORDERED</h4>
+                <h4 className="product__data">
+                  {this.state.products.lastOrdered}
+                </h4>
+              </div>
+              <div className="product__container">
+                <h4 className="product__headings">LOCATION</h4>
+                <h4 className="product__data">
+                  {this.state.products.location}
+                </h4>
+              </div>
             </div>
             <div className="product__container">
-              <h4 className="product__summary-headings">REFERENCE NUMBER </h4>
-              <h4 className="inventory__name">{this.state.products.ref}</h4>
+              <h4 className="product__headings">QUANTITY</h4>
+              <h4 className="product__data">{this.state.products.quantity}</h4>
             </div>
             <div className="product__container">
-              <h4 className="product__summary-headings">LAST ORDERED</h4>
-              <h4 className="inventory__name">
-                {this.state.products.lastOrdered}
-              </h4>
-            </div>
-            <div className="product__container">
-              <h4 className="product__summary-headings">LOCATION</h4>
-              <h4 className="inventory__name">
-                {this.state.products.location}
-              </h4>
-            </div>
-            <div className="product__container">
-              <h4 className="product__summary-headings">QUANTITY</h4>
-              <h4 className="inventory__name">
-                {this.state.products.quantity}
-              </h4>
-            </div>
-            <div className="product__container">
-              <h4 className="product__summary-headings">CATEGORIES</h4>
-              <h4 className="inventory__name">
+              <h4 className="product__headings">CATEGORIES</h4>
+              <h4 className="product__data">
                 {this.state.products.categories}
               </h4>
             </div>
           </div>
-          <button className="edit__button">EDIT</button>
+        </div>
+        <div className="product__button__wrapper">
+          <button className="product__button__edit">
+            <h4>EDIT</h4>
+          </button>
         </div>
       </>
     );
