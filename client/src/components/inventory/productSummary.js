@@ -7,11 +7,7 @@ export default class ProductSummary extends Component {
   state = {
     products: {}
   };
-  // function oos{
-  //   if ({this.state.products.quantity}=0){
 
-  //   }
-  // }
   componentDidMount() {
     axios
       .get(
@@ -25,6 +21,7 @@ export default class ProductSummary extends Component {
       });
   }
   render() {
+    let quantityCount = this.state.products.quantity;
     return (
       <>
         <div className="product__header">
@@ -41,8 +38,32 @@ export default class ProductSummary extends Component {
                 {this.state.products.name}
               </h1>
             </div>
-            <button className="product__header__button">In Stock</button>
-            <button className="product__header__button-oos">
+            <button
+              className="product__header__button"
+              style={
+                quantityCount > 1 ? { display: "inline" } : { display: "none" }
+              }
+            >
+              In Stock
+            </button>
+            <button
+              className="product__header__button"
+              style={
+                quantityCount === 1
+                  ? { display: "inline", background: "red" }
+                  : { display: "none" }
+              }
+            >
+              Low Stock
+            </button>
+            <button
+              className="product__header__button-oos"
+              style={
+                quantityCount === 0
+                  ? { display: "inline" }
+                  : { display: "none" }
+              }
+            >
               Out of Stock
             </button>
           </div>

@@ -352,21 +352,23 @@ body a {
 }
 
 .product__header__button {
-  background: #5fb709;
+  font-family: "AvenirDemiBold";
   color: #fff;
+  background: #5fb709;
   border: none;
   border-radius: 4px;
+  padding-top: 3px;
   height: 32px;
   width: 96px;
 }
 
 .product__header__button-oos {
-  display: none;
-  background: #e1e1e1;
   font-family: "AvenirDemiBold";
   color: black;
+  background: #e1e1e1;
   border: none;
   border-radius: 4px;
+  padding-top: 3px;
   height: 32px;
   width: 96px;
 }
