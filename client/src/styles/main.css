@@ -201,11 +201,11 @@ body a {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    width: 90%;
   }
   .table__header-headings {
     color: #323232;
     opacity: 0.4;
+    width: 20%;
   }
   .table__header-headings-map {
     display: none;
@@ -623,6 +623,15 @@ body a {
   }
   .locations__name {
     font-weight: bold;
+  }
+  .locations__info-div {
+    width: 20%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .locations__item {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=main.css.map */

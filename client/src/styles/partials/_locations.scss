@@ -29,5 +29,20 @@
     &__name {
       font-weight: bold;
     }
+    &__info {
+      &-div {
+        width: 20%;
+      }
+    }
+  }
+}
+@include large {
+  .locations {
+    &__heading {
+    }
+
+    &__item {
+      width: 100%;
+    }
   }
 }
