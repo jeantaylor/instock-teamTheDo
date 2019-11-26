@@ -143,7 +143,7 @@ export default class inventory extends Component {
               <input
                 type='text'
                 name='lastOrdered'
-                placeholder='yyyy-mm-dd'
+                placeholder='mm/dd/yyyy'
                 className='popUpForm__input'
               />
               <h4 className='popUpForm__heading-small'>WAREHOUSE</h4>
