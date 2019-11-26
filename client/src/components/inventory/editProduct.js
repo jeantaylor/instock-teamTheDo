@@ -22,6 +22,7 @@ export default class EditProduct extends Component {
     }
 
     render() {
+        let quantityCount = this.state.product.quantity;
         return (
             <>
                 <div className="product__header">
@@ -41,25 +42,29 @@ export default class EditProduct extends Component {
                     </div>
                 </div>
 
-                <form>
-                    <label className="formLabel" htmlFor="editDesc">ITEM DESCRIPTION</label>
-                    <textarea name="editDesc" id="editDesc" value={this.state.product.desc}></textarea>
-                    <div className="fieldWrapper--large">
-                        <div className="fieldWrapper--small">
-                            <label className="formLabel" htmlFor="editOrderedBy">ORDERED BY</label>
-                            <input className="formInput" name="editOrderedBy" id="editOrderedBy" value={this.state.product.orderedBy} />
+                <form className="edit">
+                    <div className="edit__textareaWrapper">
+                        <label className="edit__formLabel" htmlFor="editDesc">ITEM DESCRIPTION</label>
+                        <textarea rows="5" className="edit__textarea" name="editDesc" id="editDesc" value={this.state.product.desc}></textarea>
+                    </div>
+                    <div className="edit__fieldWrapper--large">
+                        <div className="edit__fieldWrapper--small">
+                            <label className="edit__formLabel" htmlFor="editOrderedBy">ORDERED BY</label>
+                            <input className="edit__formInput" name="editOrderedBy" id="editOrderedBy" value={this.state.product.orderedBy} />
 
-                            <label className="formLabel" htmlFor="editLastOrdered">LAST ORDERED</label>
-                            <input className="formInput" name="editLastOrdered" id="editLastOrdered" value={this.state.product.lastOrdered} />
+                            <label className="edit__formLabel" htmlFor="editLastOrdered">LAST ORDERED</label>
+                            <input className="edit__formInput" name="editLastOrdered" id="editLastOrdered" value={this.state.product.lastOrdered} />
 
-                            <label className="formLabel" htmlFor="editQuantity">QUANTITY</label>
-                            <input className="formInput" name="editQuantity" id="editQuantity" value={this.state.product.quantity} />
+                            <label className="edit__formLabel" htmlFor="editQuantity">QUANTITY</label>
+                            <input className="edit__formInput" name="editQuantity" id="editQuantity" value={this.state.product.quantity} />
                         </div>
-                        <div className="fieldWrapper--small">
-                            <label className="formLabel" htmlFor="editrefNum">REFERENCE NUMBER</label>
-                            <input className="formInput" name="editrefNum" id="editrefNum" value={this.state.product.ref} />
+                        <div className="edit__fieldWrapper--small">
+                            <label className="edit__formLabel" htmlFor="editRefNum">REFERENCE NUMBER</label>
+                            <input className="edit__formInput" name="editRefNum" id="editRefNum" value={this.state.product.ref} />
 
-                            <select>
+                            <label className="edit__formLabel" htmlFor="editLocation">LOCATION</label>
+                            <select className="edit__selectMenu" name="editLocation">
+                                <option value={this.state.warehouse}>-- Current Warehouse --</option>
                                 <option value="Toronto Warehouse">Toronto Warehouse</option>
                                 <option value="Vancouver Warehouse">Vancouver Warehouse</option>
                                 <option value="New York Warehouse">New York Warehouse</option>
@@ -70,12 +75,47 @@ export default class EditProduct extends Component {
                                 <option value="Portland Warehouse">Portland Warehouse</option>
                                 <option value="Cape Town Warehouse">Cape Town Warehouse</option>
                             </select>
+
+                            <label className="edit__formLabel" htmlFor="editrefNum">STATUS</label>
+
+                            <button
+                                className="product__header__button"
+                                style={
+                                    quantityCount === 1
+                                     > 1 ? { display: "inline" } : { display: "none" }
+                                }
+                            >
+                                In Stock
+            </button>
+                            <button
+                                className="product__header__button"
+                                style={
+                                    quantityCount === 1
+                                        ? { display: "inline", background: "red" }
+                                        : { display: "none" }
+                                }
+                            >
+                                Low Stock
+            </button>
+                            <button
+                                className="product__header__button-oos"
+                                style={
+                                    quantityCount === 0
+                                        ? { display: "inline" }
+                                        : { display: "none" }
+                                }
+                            >
+                                Out of Stock
+            </button>
                         </div>
                     </div>
                 </form>
 
-                <div className="product__button__wrapper">
-                    <button className="product__button__edit">
+                <div className="edit__btnWrapper">
+                    <button className="edit__cancelBtn">
+                        <h4>CANCEL</h4>
+                    </button>
+                    <button className="edit__saveBtn">
                         <h4>SAVE</h4>
                     </button>
                 </div>

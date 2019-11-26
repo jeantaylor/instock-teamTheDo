@@ -629,4 +629,140 @@ body a {
     width: 20%;
   }
 }
+
+.edit {
+  margin: 32px 5%;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.edit__textareaWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.edit__fieldWrapper--large, .edit__fieldWrapper--small {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.edit__formLabel {
+  color: #afafaf;
+  font-family: "AvenirDemiBold";
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.edit__textarea, .edit__formInput, .edit__selectMenu {
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  background-color: #fafafa;
+  font-family: "AvenirReg";
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.edit__btnWrapper {
+  margin: 32px 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+.edit__saveBtn {
+  width: 100%;
+  color: white;
+  background: #004892;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+}
+
+.edit__cancelBtn {
+  border: none;
+  background-color: #fff;
+  color: #002f5f;
+  font-family: "AvenirDemiBold";
+  width: 100%;
+  height: 48px;
+}
+
+@media only screen and (min-width: 768px) {
+  .edit {
+    margin: 40px 3.13%;
+  }
+  .edit__textareaWrapper, .edit__fieldWrapper--large {
+    width: 60%;
+  }
+  .edit__fieldWrapper--large {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .edit__fieldWrapper--small {
+    width: 47%;
+  }
+  .edit__btnWrapper {
+    margin: 40px 3.13%;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .edit__cancelBtn, .edit__saveBtn {
+    width: 160px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .edit {
+    margin: 40px 12.5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .edit__textareaWrapper {
+    width: 47.41%;
+  }
+  .edit__fieldWrapper--large {
+    margin-left: 3%;
+  }
+  .edit__fieldWrapper--small {
+    width: 45%;
+    margin-left: 3%;
+  }
+  .edit__btnWrapper {
+    margin: 40px 12.5%;
+  }
+}
 /*# sourceMappingURL=main.css.map */

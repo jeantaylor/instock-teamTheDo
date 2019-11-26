@@ -1,15 +1,117 @@
-.editProduct {
-    margin: 0; 
+.edit {
+    margin: 32px 5%;
+    border-bottom: 1px solid $mercury;
+
+	&__textareaWrapper {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	&__fieldWrapper--large,
+	&__fieldWrapper--small {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__formLabel {
+		color: $silver;
+		font-family: "AvenirDemiBold";
+		font-size: 12px;
+		line-height: 20px;
+		margin-bottom: 10px;
+	}
+
+	&__textarea,
+	&__formInput,
+	&__selectMenu {
+		border: 1px solid $mercury;
+		border-radius: 4px;
+		background-color: $alabaster;
+		font-family: "AvenirReg";
+		padding: 10px;
+		margin-bottom: 20px;
+	}
+
+	&__btnWrapper {
+        margin: 32px 5%;
+		display: flex;
+		flex-direction: column-reverse;
+    }
+    
+    &__saveBtn {
+    width: 100%;
+    color: white;
+    background: #004892;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+}
+
+	&__cancelBtn {
+		border: none;
+		background-color: $white;
+		color: $instock-drkblue;
+		font-family: "AvenirDemiBold";
+		width: 100%;
+        height: 48px;
+	}
 }
 
 @include medium {
-    .editProduct {
-        margin: 0; 
-    }
+	.edit {
+		margin: 40px 3.13%;
+
+		&__textareaWrapper,
+		&__fieldWrapper--large {
+			width: 60%;
+		}
+
+		&__fieldWrapper--large {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+
+		&__fieldWrapper--small {
+			width: 47%;
+		}
+
+		&__btnWrapper {
+            margin: 40px 3.13%;
+            align-self: flex-end;
+			display: flex;
+            flex-direction: row;
+            justify-content: flex-end; 
+        }
+        
+        &__cancelBtn, 
+        &__saveBtn {
+            width: 160px; 
+        }
+	}
 }
 
 @include large {
-    .editProduct {
-        margin: 0; 
-    }
+	.edit {
+		margin: 40px 12.5%;
+		display: flex;
+
+		&__textareaWrapper {
+			width: 47.41%;
+		}
+
+		&__fieldWrapper--large {
+			margin-left: 3%;
+		}
+
+		&__fieldWrapper--small {
+			width: 45%;
+			margin-left: 3%;
+        }
+        
+        &__btnWrapper {
+            margin: 40px 12.5%; 
+		}
+	}
 }
