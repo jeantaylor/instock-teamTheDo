@@ -1,47 +1,83 @@
 .inventory {
-  margin: 0 5%;
-  &__heading {
-    color: $black;
-  }
-  &__item {
-    border-bottom: 1px solid grey;
-  }
-  &__name {
-    font-weight: bold;
-    &:hover {
-      opacity: 75%;
-    }
-  }
+	margin: 0 5%;
+	&__heading {
+		color: $black;
+		margin-bottom: 16px;
+	}
+	&__search {
+		height: 44px;
+		margin-bottom: 16px;
+		border-radius: 4px;
+		border: 1px solid $mercury;
+		background: $alabaster;
+		font-family: "AvenirReg";
+		background-image: url("../assets/Icons/SVG/Icon-search.svg");
+		background-repeat: no-repeat;
+		background-position-x: 10px;
+		background-position-y: center;
+		padding: 3px 0 0 35px;
+		width: 90%;
+		&::placeholder {
+			color: $black;
+		}
+	}
+	&__item {
+		border-bottom: 1px solid $mercury;
+	}
+	&__name {
+		font-weight: bold;
+		&:hover {
+			opacity: 75%;
+		}
+	}
 }
 
 @include medium {
-  .inventory {
-    margin: 0 5%;
-    &__heading {
-      color: $black;
-    }
-
-    &__item {
-      display: flex;
-      justify-content: space-between;
-    }
-    &__name {
-      font-weight: bold;
-    }
-    &__group {
-      width: 20%;
-    }
-    &__quantity {
-      padding-left: 30%;
-    }
-    &__location {
-      margin-left: 9%;
-    }
-    &__status {
-      padding-left: 29%;
-    }
-    &__description {
-      padding-right: 13%;
-    }
-  }
+	.inventory {
+		margin: 0 5%;
+		&__heading {
+			color: $black;
+		}
+		&__header-search {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+		&__search {
+			width: 35%;
+			margin-top: 21.44px;
+		}
+		&__item {
+			display: flex;
+			justify-content: space-between;
+		}
+		&__name {
+			font-weight: bold;
+		}
+		&__group {
+			width: 20%;
+		}
+		&__quantity {
+			padding-left: 30%;
+		}
+		&__location {
+			margin-left: 9%;
+		}
+		&__status {
+			padding-left: 29%;
+		}
+		&__description {
+			padding-right: 13%;
+		}
+	}
+}
+@include large {
+	.inventory {
+		&__header-search {
+			width: 100%;
+		}
+		&__search {
+			width: 17.5%;
+		}
+	}
 }
